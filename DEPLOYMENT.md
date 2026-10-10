@@ -21,6 +21,6 @@ Hosted smoke check: HTTPS, location permission header, narration manifest, updat
 
 ## Nearby player connection
 
-Supabase public URL and publishable key are configured for Production. Email confirmation is enabled. The multiplayer tables are present and anonymous nearby RPC calls are denied. Use the Players panel to create and confirm two accounts, then enable nearby visibility on both phones outdoors. Two-player GPS and message exchange still require verification. See `docs/NEARBY-SETUP.md`.
+Supabase public URL and publishable key are configured for Production. Email confirmation is disabled with owner approval for this temporary demo. The multiplayer tables are present and anonymous nearby RPC calls are denied. Use the Players panel to create two accounts, then enable nearby visibility on both phones outdoors. Two-player GPS and message exchange still require verification. See `docs/NEARBY-SETUP.md`.
 
 Automatic Git deployments can be blocked if the commit author is not linked to the Vercel project. This release uses the authenticated Vercel CLI from a clean release folder without modifying Git identity.
