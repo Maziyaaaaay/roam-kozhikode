@@ -335,3 +335,5 @@ Signed-in accounts use separate browser-local quest progress keys. Progress is n
 ### Supabase connection status
 
 Project configuration is supplied. Authentication settings and database-table access checks passed; anonymous nearby RPC calls are denied. The production connection is enabled in this release. Signed-in two-player discovery, invitations and chat still need a two-phone foreground outdoor test. No physical GPS or authenticated message exchange has been verified by the agent.
+
+Account access is explicitly labelled “Sign in / Create account” for guests; after authentication the same entry becomes “Players.” Guest exploration remains available.
