@@ -337,3 +337,9 @@ Signed-in accounts use separate browser-local quest progress keys. Progress is n
 Project configuration is supplied. Authentication settings and database-table access checks passed; anonymous nearby RPC calls are denied. The production connection is enabled in this release. Signed-in two-player discovery, invitations and chat still need a two-phone foreground outdoor test. No physical GPS or authenticated message exchange has been verified by the agent.
 
 Account access is explicitly labelled “Sign in / Create account” for guests; after authentication the same entry becomes “Players.” Guest exploration remains available.
+
+### Mandatory login entry flow
+
+The first screen is a centered sign-in / create-account page. Route selection, the 3D world and “Take the Scenic Route” render only after an authenticated session is restored or sign-in succeeds. Signed-out players cannot start a guest walk. Signup with email confirmation required keeps the player on the account screen until confirmed and signed in. Signing out stops active movement and returns to the login screen. After login, Players is dedicated to nearby interactions.
+
+This mandatory-login flow supersedes earlier guest-exploration descriptions in this document. Historical device-local guest records remain stored but no guest entry is offered.

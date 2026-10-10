@@ -1,6 +1,6 @@
 # Player accounts and nearby chat
 
-This implementation needs a configured Supabase project. It does not substitute NPCs or sample profiles for real connected players. Without configuration the Players panel explains the setup requirement; guest quests still work.
+This implementation needs a configured Supabase project. It does not substitute NPCs or sample profiles for real connected players. Without configuration the centered login screen explains the setup requirement; exploration requires a connected account.
 
 ## Connect the service
 
@@ -21,7 +21,7 @@ VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
 ## Test with two real players
 
 1. Open the HTTPS deployment on two phones. Create two separate accounts and confirm their emails.
-2. Sign in through Players. Give each account a short display name.
+2. Sign in on the centered entry screen. Give each account a short display name; successful login opens Take the Scenic Route.
 3. Both enable “Visible to players within 80 m,” allow location, and keep the page open outdoors. GPS accuracy must be 45 m or better; stale fixes are rejected.
 4. Within roughly 5 seconds of a valid fix, each appears in the other's nearby list. In the authored 3D world, a named avatar represents the approximate relative position. This is not a verified street-level position; offsets are rounded to 5 m and visually scaled to fit the scene.
 5. Invite the other player. They must Accept before messages can be sent. Test Decline, End chat, and moving beyond 80 m. The server refuses messages when either player is not discoverable nearby.
@@ -35,4 +35,4 @@ No microphone is requested. Presence uses foreground GPS and a 5-second update i
 
 Backend SQL and two-device behavior require validation against your configured project before claiming multiplayer works in a demo. Build checks cannot prove this.
 
-Signed-in accounts use separate browser-local quest progress keys. Progress is not synced between devices; logging out restores guest progress.
+Signed-in accounts use separate browser-local quest progress keys. Progress is not synced between devices; logging out stops the walk and returns to the login screen.

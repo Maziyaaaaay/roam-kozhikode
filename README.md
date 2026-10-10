@@ -80,3 +80,7 @@ All three routes have Malayalam narration and captions. Use the language button 
 6. If you are actually on the selected Kozhikode route, choose Track the Kozhikode Route instead. This uses accepted GPS fixes projected onto that route and reports when you are outside the corridor.
 
 The built-in browser returned Location Unavailable during the desktop check. The GPS processing tests pass, but an outdoor iPhone walk has not been verified. Do that before presenting real location tracking as tested.
+
+## Entry flow
+
+ROAM opens with a centered sign-in / create-account screen. A confirmed Supabase account is required before Take the Scenic Route, district selection and the 3D world appear. Existing sessions are restored on reload. Signing out stops the walk and returns to login. Players is for nearby interactions after sign-in.
