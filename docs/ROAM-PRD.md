@@ -329,3 +329,5 @@ Optional Supabase email/password login now has an app implementation. Nearby vis
 Server setup: run `roam-app/supabase/multiplayer.sql`, configure `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`, and redeploy. The implementation is awaiting a connected project and two-device validation. See `roam-app/docs/NEARBY-SETUP.md`. Microphone calls, shared score persistence and public social-launch moderation remain outside this increment. Guest quest progress remains device-local.
 
 Coconut reveal: the requested exact Malayalam punchline replaces the previous explanation and has a dedicated narrator recording. It never changes directions or scores.
+
+Signed-in accounts use separate browser-local quest progress keys. Progress is not synced between devices; logging out restores guest progress.

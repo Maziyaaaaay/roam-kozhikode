@@ -34,3 +34,5 @@ Email/password accounts, opt-in location presence, nearby discovery, named 3D av
 No microphone is requested. Presence uses foreground GPS and a 5-second update interval; chat refreshes every 2 seconds. Raw coordinates are readable only by their owner; the proximity RPC returns names, distance and rounded relative offsets. Database operators can access stored information. Stale presence is excluded, but rows from disconnected devices may remain until removed. Chat messages persist in the project until deleted by its operator.
 
 Backend SQL and two-device behavior require validation against your configured project before claiming multiplayer works in a demo. Build checks cannot prove this.
+
+Signed-in accounts use separate browser-local quest progress keys. Progress is not synced between devices; logging out restores guest progress.
