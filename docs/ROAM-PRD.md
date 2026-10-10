@@ -343,3 +343,7 @@ Account access is explicitly labelled “Sign in / Create account” for guests;
 The first screen is a centered sign-in / create-account page. Route selection, the 3D world and “Take the Scenic Route” render only after an authenticated session is restored or sign-in succeeds. Signed-out players cannot start a guest walk. Signup with email confirmation required keeps the player on the account screen until confirmed and signed in. Signing out stops active movement and returns to the login screen. After login, Players is dedicated to nearby interactions.
 
 This mandatory-login flow supersedes earlier guest-exploration descriptions in this document. Historical device-local guest records remain stored but no guest entry is offered.
+
+### Demo signup email limit resolution
+
+The project owner explicitly approved disabling Confirm Email for the temporary hackathon demo. This setting is now disabled in Supabase; new email/password accounts do not require verification emails and a successful signup can proceed directly to the route landing screen. Existing unconfirmed accounts may need separate handling. This supersedes prior instructions requiring confirmation during the demo; re-enable confirmation with custom SMTP before public release. The client retains entered details on errors, distinguishes email quota errors from invalid credentials, blocks concurrent submission and adds a short retry cooldown without claiming to reset provider quotas.
