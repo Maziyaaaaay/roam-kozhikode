@@ -14,3 +14,8 @@ export function locationDelta(previous, fix, now=Date.now()) {
 }
 export function demoSpeed(length,auto=false){return Math.max(auto?45:22,length/(auto?18:30));}
 export function checkpointVoice(routeId,index){const order=routeId==='rail'?[1,3,2,4]:null;return `checkpoint${routeId==='coast'?'Coast':'Market'}${order?order[index]||4:Math.min(index+1,routeId==='coast'?5:4)}`;}
+// Walk Here: one real metre walked moves the explorer one metre through the 3D scene.
+export const SCENE_UNITS=176;
+export function walkHereScale(sceneLength,sceneOffset,routeSpan){const units=SCENE_UNITS*Math.max(1,sceneLength-sceneOffset)/Math.max(1,sceneLength);return Math.max(1,routeSpan)/units;}
+// Distance covered counts as forward progress whatever the compass direction, so GPS jitter cannot walk you backwards.
+export function walkHereStep(delta,scale){return delta.accepted&&delta.moving?{walked:delta.meters,progress:delta.meters*scale}:{walked:0,progress:0};}
