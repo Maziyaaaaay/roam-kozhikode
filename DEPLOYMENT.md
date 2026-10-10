@@ -18,3 +18,9 @@ The Google Maps browser key is configured as VITE_GOOGLE_MAPS_KEY in the Vercel 
 6. Choose Track the Kozhikode Route only when walking on the actual selected corridor. Walk Here is a physical-input preview and does not verify a landmark visit.
 
 Hosted smoke check: HTTPS, location permission header, narration manifest, updated Malayalam introduction and Google walking directions loaded successfully. All 40 local tests and the production build pass. Actual outdoor iPhone accuracy has not been measured by the agent.
+
+## Nearby player connection
+
+Supabase public URL and publishable key are configured for Production. Email confirmation is enabled. The multiplayer tables are present and anonymous nearby RPC calls are denied. Use the Players panel to create and confirm two accounts, then enable nearby visibility on both phones outdoors. Two-player GPS and message exchange still require verification. See `docs/NEARBY-SETUP.md`.
+
+Automatic Git deployments can be blocked if the commit author is not linked to the Vercel project. This release uses the authenticated Vercel CLI from a clean release folder without modifying Git identity.

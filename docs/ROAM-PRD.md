@@ -331,3 +331,7 @@ Server setup: run `roam-app/supabase/multiplayer.sql`, configure `VITE_SUPABASE_
 Coconut reveal: the requested exact Malayalam punchline replaces the previous explanation and has a dedicated narrator recording. It never changes directions or scores.
 
 Signed-in accounts use separate browser-local quest progress keys. Progress is not synced between devices; logging out restores guest progress.
+
+### Supabase connection status
+
+Project configuration is supplied. Authentication settings and database-table access checks passed; anonymous nearby RPC calls are denied. The production connection is enabled in this release. Signed-in two-player discovery, invitations and chat still need a two-phone foreground outdoor test. No physical GPS or authenticated message exchange has been verified by the agent.
