@@ -1,0 +1,327 @@
+{
+  "intro": {
+    "duration": 9.182,
+    "captions": [
+      {
+        "start": 0,
+        "end": 2.279,
+        "text": "A postcard arrived fifty years late."
+      },
+      {
+        "start": 2.279,
+        "end": 3.013,
+        "text": "No name."
+      },
+      {
+        "start": 3.013,
+        "end": 3.922,
+        "text": "No address."
+      },
+      {
+        "start": 3.922,
+        "end": 6.874,
+        "text": "Only a clue: find what this city never lost."
+      },
+      {
+        "start": 6.874,
+        "end": 9.182,
+        "text": "Chief, the next page is yours."
+      }
+    ]
+  },
+  "coast1": {
+    "duration": 7.675,
+    "captions": [
+      {
+        "start": 0,
+        "end": 2.285,
+        "text": "The tide leaves a small bottle on the sand."
+      },
+      {
+        "start": 2.285,
+        "end": 5.783,
+        "text": "Inside: half a postcard, and a sketch of a boat."
+      },
+      {
+        "start": 5.783,
+        "end": 7.675,
+        "text": "Someone nearby might know the rest."
+      }
+    ]
+  },
+  "market1": {
+    "duration": 7.775,
+    "captions": [
+      {
+        "start": 0,
+        "end": 3.3,
+        "text": "A shopkeeper slides a faded postcard across the counter."
+      },
+      {
+        "start": 3.3,
+        "end": 4.803,
+        "text": "Half the picture is missing."
+      },
+      {
+        "start": 4.803,
+        "end": 6.403,
+        "text": "The lane offers two leads."
+      },
+      {
+        "start": 6.403,
+        "end": 7.775,
+        "text": "Which one do you follow?"
+      }
+    ]
+  },
+  "coastBoat": {
+    "duration": 8.701,
+    "captions": [
+      {
+        "start": 0,
+        "end": 1.312,
+        "text": "The boatman laughs."
+      },
+      {
+        "start": 1.312,
+        "end": 3.185,
+        "text": "Every tide brings something back."
+      },
+      {
+        "start": 3.185,
+        "end": 6.621,
+        "text": "He points toward a caf\u00e9 where a traveller once left a sketch."
+      },
+      {
+        "start": 6.621,
+        "end": 8.701,
+        "text": "Your next clue smells like coffee."
+      }
+    ]
+  },
+  "coastCastle": {
+    "duration": 8.82,
+    "captions": [
+      {
+        "start": 0,
+        "end": 1.942,
+        "text": "You trace the postcard in the sand."
+      },
+      {
+        "start": 1.942,
+        "end": 7.065,
+        "text": "A child recognizes the drawing: the old storyteller used to sit beneath those trees."
+      },
+      {
+        "start": 7.065,
+        "end": 8.82,
+        "text": "You follow the shady promenade."
+      }
+    ]
+  },
+  "marketSweet": {
+    "duration": 8.003,
+    "captions": [
+      {
+        "start": 0,
+        "end": 2.703,
+        "text": "The sweet seller folds your clue into a paper bag."
+      },
+      {
+        "start": 2.703,
+        "end": 5.632,
+        "text": "A good story needs something sweet, he says."
+      },
+      {
+        "start": 5.632,
+        "end": 8.003,
+        "text": "A cinnamon trail leads you to the next window."
+      }
+    ]
+  },
+  "marketMemory": {
+    "duration": 7.294,
+    "captions": [
+      {
+        "start": 0,
+        "end": 3.086,
+        "text": "The shopkeeper remembers a traveller who drew every doorway."
+      },
+      {
+        "start": 3.086,
+        "end": 5.167,
+        "text": "Look for the window with the blue shutters."
+      },
+      {
+        "start": 5.167,
+        "end": 7.294,
+        "text": "You follow a trail of little sketches."
+      }
+    ]
+  },
+  "coast2": {
+    "duration": 7.723,
+    "captions": [
+      {
+        "start": 0,
+        "end": 1.704,
+        "text": "The second half is close."
+      },
+      {
+        "start": 1.704,
+        "end": 3.054,
+        "text": "A warm caf\u00e9 window."
+      },
+      {
+        "start": 3.054,
+        "end": 4.904,
+        "text": "A quiet place facing the sea."
+      },
+      {
+        "start": 4.904,
+        "end": 7.723,
+        "text": "Two ways to find the person behind the postcard."
+      }
+    ]
+  },
+  "market2": {
+    "duration": 7.678,
+    "captions": [
+      {
+        "start": 0,
+        "end": 3.486,
+        "text": "At the end of the lane, two people remember the missing picture."
+      },
+      {
+        "start": 3.486,
+        "end": 5.265,
+        "text": "One serves the city on a plate."
+      },
+      {
+        "start": 5.265,
+        "end": 7.678,
+        "text": "The other has kept its stories for years."
+      }
+    ]
+  },
+  "coffee": {
+    "duration": 8.746,
+    "captions": [
+      {
+        "start": 0,
+        "end": 1.733,
+        "text": "You trade a story for a clue."
+      },
+      {
+        "start": 1.733,
+        "end": 4.124,
+        "text": "The caf\u00e9 owner unfolds the last piece."
+      },
+      {
+        "start": 4.124,
+        "end": 6.711,
+        "text": "The postcard was never asking for a place."
+      },
+      {
+        "start": 6.711,
+        "end": 8.746,
+        "text": "It was asking you to notice the people."
+      }
+    ]
+  },
+  "horizon": {
+    "duration": 7.313,
+    "captions": [
+      {
+        "start": 0,
+        "end": 3.393,
+        "text": "At the viewpoint, you hold the postcard against the horizon."
+      },
+      {
+        "start": 3.393,
+        "end": 5.086,
+        "text": "The missing lines fit the sea."
+      },
+      {
+        "start": 5.086,
+        "end": 7.313,
+        "text": "The picture was waiting for you to finish it."
+      }
+    ]
+  },
+  "food": {
+    "duration": 7.48,
+    "captions": [
+      {
+        "start": 0,
+        "end": 2.487,
+        "text": "You listen as the cook tells a family memory."
+      },
+      {
+        "start": 2.487,
+        "end": 4.725,
+        "text": "The final piece comes wrapped in a recipe."
+      },
+      {
+        "start": 4.725,
+        "end": 7.48,
+        "text": "A city keeps its stories in the people who feed it."
+      }
+    ]
+  },
+  "keeper": {
+    "duration": 6.34,
+    "captions": [
+      {
+        "start": 0,
+        "end": 1.904,
+        "text": "The keeper opens a little notebook."
+      },
+      {
+        "start": 1.904,
+        "end": 3.411,
+        "text": "There is your missing sketch."
+      },
+      {
+        "start": 3.411,
+        "end": 6.34,
+        "text": "A city keeps its stories in the people who remember it."
+      }
+    ]
+  },
+  "finale": {
+    "duration": 8.706,
+    "captions": [
+      {
+        "start": 0,
+        "end": 1.115,
+        "text": "The two halves meet."
+      },
+      {
+        "start": 1.115,
+        "end": 2.958,
+        "text": "The lost thing was curiosity."
+      },
+      {
+        "start": 2.958,
+        "end": 4.714,
+        "text": "You found it between the stops."
+      },
+      {
+        "start": 4.714,
+        "end": 6.193,
+        "text": "Thanks, Chief."
+      },
+      {
+        "start": 6.193,
+        "end": 7.344,
+        "text": "Keep the postcard."
+      },
+      {
+        "start": 7.344,
+        "end": 8.706,
+        "text": "Another road is waiting."
+      }
+    ]
+  }
+}

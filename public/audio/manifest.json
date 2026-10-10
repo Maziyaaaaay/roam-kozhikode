@@ -1,0 +1,1787 @@
+{
+  "introMarket": {
+    "text": "SM Street first, Mananchira after. Pick a quest at each stop. Yes, looking at shops can earn points. Your browsing finally has consequences.",
+    "file": "introMarket-4e67aa47db30.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 11.04,
+    "captions": [
+      {
+        "text": "SM Street first, Mananchira after.",
+        "start": 0,
+        "end": 3.16
+      },
+      {
+        "text": "Pick a quest at each stop.",
+        "start": 3.36,
+        "end": 5.2
+      },
+      {
+        "text": "Yes, looking at shops can earn points.",
+        "start": 5.28,
+        "end": 8.24
+      },
+      {
+        "text": "Your browsing finally has consequences.",
+        "start": 8.32,
+        "end": 11.04
+      }
+    ]
+  },
+  "introCoast": {
+    "text": "We start at the Corporation Office. The sea and the food stalls are ahead. Try to finish one quest before this becomes a snack review.",
+    "file": "introCoast-5db714b4f3ce.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 7.84,
+    "captions": [
+      {
+        "text": "We start at the Corporation Office.",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "The sea and the food stalls are ahead.",
+        "start": 2.16,
+        "end": 4.32
+      },
+      {
+        "text": "Try to finish one quest before this becomes a snack review.",
+        "start": 4.48,
+        "end": 7.84
+      }
+    ]
+  },
+  "coast1": {
+    "text": "Here is your first fork. Stay with the old piers and look for the beach’s past, or turn toward the snack stalls and discover how this shore spends its evenings. What catches you first?",
+    "file": "coast1-c6d4a9252a46.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 11.36,
+    "captions": [
+      {
+        "text": "Here is your first fork.",
+        "start": 0,
+        "end": 1.64
+      },
+      {
+        "text": "Stay with the old piers and look for the beach’s past, or turn toward the snack stalls and discover how this shore spends its evenings.",
+        "start": 1.84,
+        "end": 9.92
+      },
+      {
+        "text": "What catches you first?",
+        "start": 10,
+        "end": 11.36
+      }
+    ]
+  },
+  "market1": {
+    "text": "You have reached SM Street. The answer could be sitting in a sweet-shop window. Or hiding in the name everyone walks past. Pick your way into the story.",
+    "file": "market1-88c2d654a230.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 10.16,
+    "captions": [
+      {
+        "text": "You have reached SM Street.",
+        "start": 0,
+        "end": 1.92
+      },
+      {
+        "text": "The answer could be sitting in a sweet-shop window.",
+        "start": 2.32,
+        "end": 4.84
+      },
+      {
+        "text": "Or hiding in the name everyone walks past.",
+        "start": 5.04,
+        "end": 7.96
+      },
+      {
+        "text": "Pick your way into the story.",
+        "start": 8.16,
+        "end": 10.16
+      }
+    ]
+  },
+  "coastBoat": {
+    "text": "Take a moment by the piers, from the public promenade. The district’s guide lists these ancient piers among the beach’s landmarks. A sunset photo has just become a picture with a past. Which landmark brought you here?",
+    "file": "coastBoat-68cf4428993d.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 13.28,
+    "captions": [
+      {
+        "text": "Take a moment by the piers, from the public promenade.",
+        "start": 0,
+        "end": 3.12
+      },
+      {
+        "text": "The district’s guide lists these ancient piers among the beach’s landmarks.",
+        "start": 3.36,
+        "end": 7.72
+      },
+      {
+        "text": "A sunset photo has just become a picture with a past.",
+        "start": 7.92,
+        "end": 11.24
+      },
+      {
+        "text": "Which landmark brought you here?",
+        "start": 11.44,
+        "end": 13.28
+      }
+    ]
+  },
+  "coastCastle": {
+    "text": "The sea can wait a moment. The district guide names mussels among this beach’s local delicacies. Follow the food stalls, see what is on offer, and ask a question before ordering. A flavour can be a lead, too. No purchase is needed to keep exploring.",
+    "file": "coastCastle-9cf89747a808.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 15.2,
+    "captions": [
+      {
+        "text": "The sea can wait a moment.",
+        "start": 0,
+        "end": 1.84
+      },
+      {
+        "text": "The district guide names mussels among this beach’s local delicacies.",
+        "start": 1.88,
+        "end": 6.08
+      },
+      {
+        "text": "Follow the food stalls, see what is on offer, and ask a question before ordering.",
+        "start": 6.2,
+        "end": 10.8
+      },
+      {
+        "text": "A flavour can be a lead, too.",
+        "start": 10.88,
+        "end": 12.72
+      },
+      {
+        "text": "No purchase is needed to keep exploring.",
+        "start": 12.8,
+        "end": 15.2
+      }
+    ]
+  },
+  "marketSweet": {
+    "text": "There it is, in the sweet-shop window: Kozhikodan halwa. The street’s name is linked to sweet shops and bakeries. The clue was on the counter all along. Now, what gives a city its flavour: a recipe, or the people who keep making it?",
+    "file": "marketSweet-35c72c6e68c4.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 15.52,
+    "captions": [
+      {
+        "text": "There it is, in the sweet-shop window: Kozhikodan halwa.",
+        "start": 0,
+        "end": 4.32
+      },
+      {
+        "text": "The street’s name is linked to sweet shops and bakeries.",
+        "start": 4.56,
+        "end": 7.76
+      },
+      {
+        "text": "The clue was on the counter all along.",
+        "start": 7.84,
+        "end": 10.04
+      },
+      {
+        "text": "Now, what gives a city its flavour: a recipe, or the people who keep making it?",
+        "start": 10.32,
+        "end": 15.52
+      }
+    ]
+  },
+  "marketMemory": {
+    "text": "Read the name again: SM Street, Sweet Meat Street. Sweet shops and bakeries are the connection. Every time someone gives an address here, they carry a little of that history. You found it without leaving the pavement. Now let’s follow what the city kept.",
+    "file": "marketMemory-d299cb856e63.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 15.52,
+    "captions": [
+      {
+        "text": "Read the name again: SM Street, Sweet Meat Street.",
+        "start": 0,
+        "end": 4.56
+      },
+      {
+        "text": "Sweet shops and bakeries are the connection.",
+        "start": 4.8,
+        "end": 6.96
+      },
+      {
+        "text": "Every time someone gives an address here, they carry a little of that history.",
+        "start": 7.12,
+        "end": 11.04
+      },
+      {
+        "text": "You found it without leaving the pavement.",
+        "start": 11.2,
+        "end": 13.36
+      },
+      {
+        "text": "Now let’s follow what the city kept.",
+        "start": 13.44,
+        "end": 15.52
+      }
+    ]
+  },
+  "coast2Heritage": {
+    "text": "You followed the piers. Now give that history a different ending: notice the shoreline through your own photograph, or step toward the food stalls and meet the beach as it is today.",
+    "file": "coast2Heritage-2ca60140dc1f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 10.72,
+    "captions": [
+      {
+        "text": "You followed the piers.",
+        "start": 0,
+        "end": 1.44
+      },
+      {
+        "text": "Now give that history a different ending: notice the shoreline through your own photograph, or step toward the food stalls and meet the beach as it is today.",
+        "start": 1.68,
+        "end": 10.72
+      }
+    ]
+  },
+  "coast2Food": {
+    "text": "You followed your appetite. Now change the pace. Look for the old piers to see the shoreline’s past, or stay with the promenade and frame the beach’s evening life.",
+    "file": "coast2Food-b8ffe564a01e.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 10.24,
+    "captions": [
+      {
+        "text": "You followed your appetite.",
+        "start": 0,
+        "end": 1.64
+      },
+      {
+        "text": "Now change the pace.",
+        "start": 1.84,
+        "end": 3.28
+      },
+      {
+        "text": "Look for the old piers to see the shoreline’s past, or stay with the promenade and frame the beach’s evening life.",
+        "start": 3.44,
+        "end": 10.24
+      }
+    ]
+  },
+  "market2Sweet": {
+    "text": "You solved the sweet-shop clue. Before we finish at Mananchira, choose one more lens: look closer at the market’s shopfronts, or discover the royal connection behind the pond.",
+    "file": "market2Sweet-c4d66b35a6b8.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 11.28,
+    "captions": [
+      {
+        "text": "You solved the sweet-shop clue.",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "Before we finish at Mananchira, choose one more lens: look closer at the market’s shopfronts, or discover the royal connection behind the pond.",
+        "start": 2.24,
+        "end": 11.28
+      }
+    ]
+  },
+  "market2Name": {
+    "text": "You followed the street’s name. Now follow its people through the shopfronts, or take the story toward Mananchira and its palace-era water source. Which page comes next?",
+    "file": "market2Name-71579af55e20.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 10.4,
+    "captions": [
+      {
+        "text": "You followed the street’s name.",
+        "start": 0,
+        "end": 1.76
+      },
+      {
+        "text": "Now follow its people through the shopfronts, or take the story toward Mananchira and its palace-era water source.",
+        "start": 2,
+        "end": 8.88
+      },
+      {
+        "text": "Which page comes next?",
+        "start": 9,
+        "end": 10.4
+      }
+    ]
+  },
+  "coffee": {
+    "text": "Try this: frame the same shoreline twice. Once with the sea filling the view; once with a pier or the public promenade included. Which image tells more of this place? The beach has become more than a backdrop.",
+    "file": "coffee-87eaa10e82c5.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 13.44,
+    "captions": [
+      {
+        "text": "Try this: frame the same shoreline twice.",
+        "start": 0,
+        "end": 3.28
+      },
+      {
+        "text": "Once with the sea filling the view; once with a pier or the public promenade included.",
+        "start": 3.44,
+        "end": 8.56
+      },
+      {
+        "text": "Which image tells more of this place?",
+        "start": 8.68,
+        "end": 11.12
+      },
+      {
+        "text": "The beach has become more than a backdrop.",
+        "start": 11.16,
+        "end": 13.44
+      }
+    ]
+  },
+  "horizon": {
+    "text": "Your next landmark is an old pier, viewed from the public promenade. The beach’s ancient piers and old lighthouse are recorded in the district guide. Keep to public paths; the discovery is in noticing them, not climbing them.",
+    "file": "horizon-786051a9587e.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 14.08,
+    "captions": [
+      {
+        "text": "Your next landmark is an old pier, viewed from the public promenade.",
+        "start": 0,
+        "end": 4.24
+      },
+      {
+        "text": "The beach’s ancient piers and old lighthouse are recorded in the district guide.",
+        "start": 4.48,
+        "end": 8.92
+      },
+      {
+        "text": "Keep to public paths; the discovery is in noticing them, not climbing them.",
+        "start": 9.12,
+        "end": 14.08
+      }
+    ]
+  },
+  "food": {
+    "text": "Pause at an SM Street shopfront. This is a living shopping street, known for sweets including Kozhikodan halwa. Ask a seller a question if they are free, or simply observe the display. Taking part does not have to mean buying.",
+    "file": "food-75c0ea204704.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 14.4,
+    "captions": [
+      {
+        "text": "Pause at an SM Street shopfront.",
+        "start": 0,
+        "end": 2.16
+      },
+      {
+        "text": "This is a living shopping street, known for sweets including Kozhikodan halwa.",
+        "start": 2.56,
+        "end": 7.2
+      },
+      {
+        "text": "Ask a seller a question if they are free, or simply observe the display.",
+        "start": 7.68,
+        "end": 11.68
+      },
+      {
+        "text": "Taking part does not have to mean buying.",
+        "start": 11.84,
+        "end": 14.4
+      }
+    ]
+  },
+  "keeper": {
+    "text": "Look toward Mananchira’s water. Imagine this view before the traffic, before your phone: a freshwater pond built by the Zamorin Mana Vikrama, supplying the royal palace. The city grew around it. You came for a quiet moment and found a much older chapter.",
+    "file": "keeper-b0606ecba4b4.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 16.88,
+    "captions": [
+      {
+        "text": "Look toward Mananchira’s water.",
+        "start": 0,
+        "end": 2.04
+      },
+      {
+        "text": "Imagine this view before the traffic, before your phone: a freshwater pond built by the Zamorin Mana Vikrama, supplying the royal palace.",
+        "start": 2.24,
+        "end": 11.4
+      },
+      {
+        "text": "The city grew around it.",
+        "start": 11.52,
+        "end": 13.04
+      },
+      {
+        "text": "You came for a quiet moment and found a much older chapter.",
+        "start": 13.2,
+        "end": 16.88
+      }
+    ]
+  },
+  "finaleCoast": {
+    "text": "Now take your sunset picture. You have noticed a shoreline with old landmarks and a life around them. Same beach. A richer memory. Your discoveries are saved, and the street with the strange name is waiting for another walk.",
+    "file": "finaleCoast-fe8dd925164f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 13.52,
+    "captions": [
+      {
+        "text": "Now take your sunset picture.",
+        "start": 0,
+        "end": 1.84
+      },
+      {
+        "text": "You have noticed a shoreline with old landmarks and a life around them.",
+        "start": 2,
+        "end": 5.76
+      },
+      {
+        "text": "Same beach.",
+        "start": 6.08,
+        "end": 6.96
+      },
+      {
+        "text": "A richer memory.",
+        "start": 7.12,
+        "end": 8.4
+      },
+      {
+        "text": "Your discoveries are saved, and the street with the strange name is waiting for another walk.",
+        "start": 8.48,
+        "end": 13.52
+      }
+    ]
+  },
+  "finaleMarket": {
+    "text": "Sweet Meat Street is no longer just a curious name. And Mananchira is no longer just a pretty pond. You followed your own questions through Kozhikode. Keep those discoveries. Next time, let the sea tell its side of the story.",
+    "file": "finaleMarket-8000c17b17b3.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 14.16,
+    "captions": [
+      {
+        "text": "Sweet Meat Street is no longer just a curious name.",
+        "start": 0,
+        "end": 3.36
+      },
+      {
+        "text": "And Mananchira is no longer just a pretty pond.",
+        "start": 3.44,
+        "end": 6.64
+      },
+      {
+        "text": "You followed your own questions through Kozhikode.",
+        "start": 6.72,
+        "end": 9.28
+      },
+      {
+        "text": "Keep those discoveries.",
+        "start": 9.44,
+        "end": 10.88
+      },
+      {
+        "text": "Next time, let the sea tell its side of the story.",
+        "start": 10.96,
+        "end": 14.16
+      }
+    ]
+  },
+  "coastSnack": {
+    "text": "The sea can wait a moment. The district guide names mussels among this beach’s local delicacies. Follow the food stalls, see what is on offer, and ask a question before ordering. A flavour can be a lead, too. No purchase is needed to keep exploring.",
+    "file": "coastSnack-9cf89747a808.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 15.52,
+    "captions": [
+      {
+        "text": "The sea can wait a moment.",
+        "start": 0,
+        "end": 1.52
+      },
+      {
+        "text": "The district guide names mussels among this beach’s local delicacies.",
+        "start": 2,
+        "end": 5.84
+      },
+      {
+        "text": "Follow the food stalls, see what is on offer, and ask a question before ordering.",
+        "start": 6.24,
+        "end": 10.88
+      },
+      {
+        "text": "A flavour can be a lead, too.",
+        "start": 11.04,
+        "end": 13.04
+      },
+      {
+        "text": "No purchase is needed to keep exploring.",
+        "start": 13.12,
+        "end": 15.52
+      }
+    ]
+  },
+  "roastPier": {
+    "text": "You found it. Now resist explaining this entire place as if you discovered it.",
+    "file": "roastPier-eef6b87d11dc.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.2,
+    "captions": [
+      {
+        "text": "You found it.",
+        "start": 0,
+        "end": 0.92
+      },
+      {
+        "text": "Now resist explaining this entire place as if you discovered it.",
+        "start": 1.12,
+        "end": 5.2
+      }
+    ]
+  },
+  "roastFood": {
+    "text": "Food quest finished. That level of focus was suspiciously easy to find.",
+    "file": "roastFood-7be2b8bd13b4.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.28,
+    "captions": [
+      {
+        "text": "Food quest finished.",
+        "start": 0,
+        "end": 1.52
+      },
+      {
+        "text": "That level of focus was suspiciously easy to find.",
+        "start": 1.76,
+        "end": 5.28
+      }
+    ]
+  },
+  "roastFrame": {
+    "text": "Points added. Please keep the acceptance speech short.",
+    "file": "roastFrame-fafbd53396aa.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 3.68,
+    "captions": [
+      {
+        "text": "Points added.",
+        "start": 0,
+        "end": 1.12
+      },
+      {
+        "text": "Please keep the acceptance speech short.",
+        "start": 1.36,
+        "end": 3.68
+      }
+    ]
+  },
+  "introCoastMl": {
+    "text": "കോർപ്പറേഷൻ മുന്നിൽ നിന്ന് തുടങ്ങാം. കടലും ഭക്ഷണവും വഴിയിലുണ്ട്. ഫുഡ് റിവ്യൂ തുടങ്ങുന്നതിന് മുമ്പ് ഒരു ക്വസ്റ്റ് തീർക്കണേ.",
+    "file": "introCoastMl-f289c4ceb4bb.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 7.12,
+    "captions": [
+      {
+        "text": "കോർപ്പറേഷൻ മുന്നിൽ നിന്ന് തുടങ്ങാം.",
+        "start": 0,
+        "end": 1.92
+      },
+      {
+        "text": "കടലും ഭക്ഷണവും വഴിയിലുണ്ട്.",
+        "start": 2,
+        "end": 4.08
+      },
+      {
+        "text": "ഫുഡ് റിവ്യൂ തുടങ്ങുന്നതിന് മുമ്പ് ഒരു ക്വസ്റ്റ് തീർക്കണേ.",
+        "start": 4.12,
+        "end": 7.12
+      }
+    ]
+  },
+  "introMarketMl": {
+    "text": "എസ് എം സ്ട്രീറ്റിൽ നിന്ന് മാനാഞ്ചിറ വരെ പോകാം. ഇടയ്ക്ക് ക്വസ്റ്റ് എടുക്കാം. കടയിൽ കേറുന്നതിന് മുമ്പ് പറഞ്ഞേക്കാം, പോയിന്റ് കിട്ടുന്നത് ക്വസ്റ്റ് ചെയ്താലാണ്.",
+    "file": "introMarketMl-d249bd1b47f0.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 8.16,
+    "captions": [
+      {
+        "text": "എസ് എം സ്ട്രീറ്റിൽ നിന്ന് മാനാഞ്ചിറ വരെ പോകാം.",
+        "start": 0,
+        "end": 2.72
+      },
+      {
+        "text": "ഇടയ്ക്ക് ക്വസ്റ്റ് എടുക്കാം.",
+        "start": 2.747,
+        "end": 4.16
+      },
+      {
+        "text": "കടയിൽ കേറുന്നതിന് മുമ്പ് പറഞ്ഞേക്കാം, പോയിന്റ് കിട്ടുന്നത് ക്വസ്റ്റ് ചെയ്താലാണ്.",
+        "start": 4.24,
+        "end": 8.16
+      }
+    ]
+  },
+  "roastPierMl": {
+    "text": "കണ്ടെത്തിയല്ലോ. ഇനി നീ കണ്ടുപിടിച്ച സ്ഥലമാണെന്ന പോലെ വിവരണം തുടങ്ങല്ലേ.",
+    "file": "roastPierMl-12a89ce2e2f9.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.8,
+    "captions": [
+      {
+        "text": "കണ്ടെത്തിയല്ലോ.",
+        "start": 0,
+        "end": 0.96
+      },
+      {
+        "text": "ഇനി നീ കണ്ടുപിടിച്ച സ്ഥലമാണെന്ന പോലെ വിവരണം തുടങ്ങല്ലേ.",
+        "start": 1.2,
+        "end": 4.8
+      }
+    ]
+  },
+  "roastFoodMl": {
+    "text": "ഭക്ഷണ ക്വസ്റ്റ് തീർന്നു. ഇതിനൊക്കെ എന്തൊരു ശ്രദ്ധയാ. വേറെ ലെവൽ.",
+    "file": "roastFoodMl-04857d58813f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.64,
+    "captions": [
+      {
+        "text": "ഭക്ഷണ ക്വസ്റ്റ് തീർന്നു.",
+        "start": 0,
+        "end": 1.6
+      },
+      {
+        "text": "ഇതിനൊക്കെ എന്തൊരു ശ്രദ്ധയാ.",
+        "start": 1.627,
+        "end": 3.52
+      },
+      {
+        "text": "വേറെ ലെവൽ.",
+        "start": 3.6,
+        "end": 4.64
+      }
+    ]
+  },
+  "roastFrameMl": {
+    "text": "ആഹാ, ക്വസ്റ്റ് തീർത്തു. ഇനി ഇതിന്റെ പേരിൽ ഇന്റർവ്യൂ കൊടുക്കാൻ പോവണ്ട.",
+    "file": "roastFrameMl-a5df2a478df2.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.4,
+    "captions": [
+      {
+        "text": "ആഹാ, ക്വസ്റ്റ് തീർത്തു.",
+        "start": 0,
+        "end": 1.76
+      },
+      {
+        "text": "ഇനി ഇതിന്റെ പേരിൽ ഇന്റർവ്യൂ കൊടുക്കാൻ പോവണ്ട.",
+        "start": 1.787,
+        "end": 4.4
+      }
+    ]
+  },
+  "banterCoast": {
+    "text": "Still looking at the sea? Fair. It has been carrying this entire outing.",
+    "file": "banterCoast-fc08d2a2b892.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.04,
+    "captions": [
+      {
+        "text": "Still looking at the sea?",
+        "start": 0,
+        "end": 1.48
+      },
+      {
+        "text": "Fair.",
+        "start": 1.76,
+        "end": 2.16
+      },
+      {
+        "text": "It has been carrying this entire outing.",
+        "start": 2.56,
+        "end": 5.04
+      }
+    ]
+  },
+  "banterMarket": {
+    "text": "You said you were just looking. That is how every shopping trip starts.",
+    "file": "banterMarket-fd5dbb9f5874.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.56,
+    "captions": [
+      {
+        "text": "You said you were just looking.",
+        "start": 0,
+        "end": 1.92
+      },
+      {
+        "text": "That is how every shopping trip starts.",
+        "start": 2,
+        "end": 4.56
+      }
+    ]
+  },
+  "banterCoastMl": {
+    "text": "കടൽ നോക്കി നിന്നോളൂ. ഈ ട്രിപ്പിൽ ഏറ്റവും നന്നായി പെർഫോം ചെയ്യുന്നത് അതാണല്ലോ.",
+    "file": "banterCoastMl-86fdcae32685.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.8,
+    "captions": [
+      {
+        "text": "കടൽ നോക്കി നിന്നോളൂ.",
+        "start": 0,
+        "end": 1.36
+      },
+      {
+        "text": "ഈ ട്രിപ്പിൽ ഏറ്റവും നന്നായി പെർഫോം ചെയ്യുന്നത് അതാണല്ലോ.",
+        "start": 1.44,
+        "end": 4.8
+      }
+    ]
+  },
+  "banterMarketMl": {
+    "text": "വെറുതെ നോക്കാൻ വന്നതാ, അല്ലേ? എല്ലാ ഷോപ്പിങ്ങും തുടങ്ങുന്നത് ഈ ഡയലോഗിലാണ്.",
+    "file": "banterMarketMl-e40cf4c37136.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.04,
+    "captions": [
+      {
+        "text": "വെറുതെ നോക്കാൻ വന്നതാ, അല്ലേ?",
+        "start": 0,
+        "end": 2.04
+      },
+      {
+        "text": "എല്ലാ ഷോപ്പിങ്ങും തുടങ്ങുന്നത് ഈ ഡയലോഗിലാണ്.",
+        "start": 2.32,
+        "end": 5.04
+      }
+    ]
+  },
+  "checkpointCoast1": {
+    "text": "Corporation Office. Your dramatic entrance has been received by one parked auto. Pick a quest.",
+    "file": "checkpointCoast1-b63bc7b6866e.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.4,
+    "captions": [
+      {
+        "text": "Corporation Office.",
+        "start": 0,
+        "end": 1.4
+      },
+      {
+        "text": "Your dramatic entrance has been received by one parked auto.",
+        "start": 1.6,
+        "end": 5.04
+      },
+      {
+        "text": "Pick a quest.",
+        "start": 5.44,
+        "end": 6.4
+      }
+    ]
+  },
+  "checkpointCoast2": {
+    "text": "Beach Road. You can look up now. The blue line is not going to wave back.",
+    "file": "checkpointCoast2-9266a424a427.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.96,
+    "captions": [
+      {
+        "text": "Beach Road.",
+        "start": 0,
+        "end": 0.92
+      },
+      {
+        "text": "You can look up now.",
+        "start": 1.12,
+        "end": 2.08
+      },
+      {
+        "text": "The blue line is not going to wave back.",
+        "start": 2.4,
+        "end": 4.96
+      }
+    ]
+  },
+  "checkpointMarket1": {
+    "text": "SM Street. Before you say “just one piece of halwa,” pick a quest.",
+    "file": "checkpointMarket1-1b7289e2c237.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.2,
+    "captions": [
+      {
+        "text": "SM Street.",
+        "start": 0,
+        "end": 1.24
+      },
+      {
+        "text": "Before you say “just one piece of halwa,” pick a quest.",
+        "start": 1.44,
+        "end": 5.2
+      }
+    ]
+  },
+  "checkpointMarket2": {
+    "text": "Court Road. A turn successfully taken. Please hold the victory speech until we finish.",
+    "file": "checkpointMarket2-bffabe1f5df6.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.52,
+    "captions": [
+      {
+        "text": "Court Road.",
+        "start": 0,
+        "end": 0.96
+      },
+      {
+        "text": "A turn successfully taken.",
+        "start": 1.12,
+        "end": 2.88
+      },
+      {
+        "text": "Please hold the victory speech until we finish.",
+        "start": 3.12,
+        "end": 5.52
+      }
+    ]
+  },
+  "checkpointCoast1Ml": {
+    "text": "കോർപ്പറേഷൻ മുന്നിലെത്തി. നിന്റെ എൻട്രി കണ്ടത് അവിടെ പാർക്ക് ചെയ്ത ഓട്ടോ മാത്രം. ക്വസ്റ്റ് എടുക്കാം.",
+    "file": "checkpointCoast1Ml-8b7de8e0df11.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.84,
+    "captions": [
+      {
+        "text": "കോർപ്പറേഷൻ മുന്നിലെത്തി.",
+        "start": 0,
+        "end": 1.52
+      },
+      {
+        "text": "നിന്റെ എൻട്രി കണ്ടത് അവിടെ പാർക്ക് ചെയ്ത ഓട്ടോ മാത്രം.",
+        "start": 1.6,
+        "end": 4.96
+      },
+      {
+        "text": "ക്വസ്റ്റ് എടുക്കാം.",
+        "start": 4.987,
+        "end": 5.84
+      }
+    ]
+  },
+  "checkpointCoast2Ml": {
+    "text": "ബീച്ച് റോഡ്. ഫോണിൽ നിന്ന് കണ്ണെടുക്കാം. നീല വര നിന്നെ തിരിച്ച് നോക്കില്ല.",
+    "file": "checkpointCoast2Ml-ed33d6301460.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.72,
+    "captions": [
+      {
+        "text": "ബീച്ച് റോഡ്.",
+        "start": 0,
+        "end": 0.64
+      },
+      {
+        "text": "ഫോണിൽ നിന്ന് കണ്ണെടുക്കാം.",
+        "start": 1.04,
+        "end": 2.56
+      },
+      {
+        "text": "നീല വര നിന്നെ തിരിച്ച് നോക്കില്ല.",
+        "start": 2.64,
+        "end": 4.72
+      }
+    ]
+  },
+  "checkpointMarket1Ml": {
+    "text": "എസ് എം സ്ട്രീറ്റ്. ഒരു കഷണം ഹൽവയേ വാങ്ങൂ എന്ന് പറയുന്നതിന് മുമ്പ് ക്വസ്റ്റ് എടുക്ക്.",
+    "file": "checkpointMarket1Ml-799210aa5f1f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.96,
+    "captions": [
+      {
+        "text": "എസ് എം സ്ട്രീറ്റ്.",
+        "start": 0,
+        "end": 0.8
+      },
+      {
+        "text": "ഒരു കഷണം ഹൽവയേ വാങ്ങൂ എന്ന് പറയുന്നതിന് മുമ്പ് ക്വസ്റ്റ് എടുക്ക്.",
+        "start": 1.2,
+        "end": 4.96
+      }
+    ]
+  },
+  "checkpointMarket2Ml": {
+    "text": "കോർട്ട് റോഡ്. ഒരു ടേൺ എടുത്തതിന് ഇത്ര സന്തോഷമോ? ശരി, ബാക്കി കൂടി നടക്കാം.",
+    "file": "checkpointMarket2Ml-42d8f44c2b0f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.76,
+    "captions": [
+      {
+        "text": "കോർട്ട് റോഡ്.",
+        "start": 0,
+        "end": 1.12
+      },
+      {
+        "text": "ഒരു ടേൺ എടുത്തതിന് ഇത്ര സന്തോഷമോ?",
+        "start": 1.173,
+        "end": 3.92
+      },
+      {
+        "text": "ശരി, ബാക്കി കൂടി നടക്കാം.",
+        "start": 4,
+        "end": 5.76
+      }
+    ]
+  },
+  "paceSlow": {
+    "text": "Take your time. I was not doing anything either. Clearly a very busy team.",
+    "file": "paceSlow-d56baa322d36.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.2,
+    "captions": [
+      {
+        "text": "Take your time.",
+        "start": 0,
+        "end": 1.12
+      },
+      {
+        "text": "I was not doing anything either.",
+        "start": 1.2,
+        "end": 2.8
+      },
+      {
+        "text": "Clearly a very busy team.",
+        "start": 3.04,
+        "end": 5.2
+      }
+    ]
+  },
+  "paceFast": {
+    "text": "What is the rush? The finish line is not handing out free biryani. Easy pace.",
+    "file": "paceFast-9927328e414c.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.44,
+    "captions": [
+      {
+        "text": "What is the rush?",
+        "start": 0,
+        "end": 1.24
+      },
+      {
+        "text": "The finish line is not handing out free biryani.",
+        "start": 1.36,
+        "end": 3.84
+      },
+      {
+        "text": "Easy pace.",
+        "start": 4.24,
+        "end": 5.44
+      }
+    ]
+  },
+  "paceSlowMl": {
+    "text": "നടന്നോളൂ. എനിക്കും വേറെ പണിയൊന്നുമില്ല. നല്ല തിരക്കുള്ള ടീം ആണല്ലോ നമ്മൾ.",
+    "file": "paceSlowMl-fe3212db9dec.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.56,
+    "captions": [
+      {
+        "text": "നടന്നോളൂ.",
+        "start": 0,
+        "end": 0.88
+      },
+      {
+        "text": "എനിക്കും വേറെ പണിയൊന്നുമില്ല.",
+        "start": 0.92,
+        "end": 2.48
+      },
+      {
+        "text": "നല്ല തിരക്കുള്ള ടീം ആണല്ലോ നമ്മൾ.",
+        "start": 2.56,
+        "end": 4.56
+      }
+    ]
+  },
+  "paceFastMl": {
+    "text": "എന്തിനാ ഇത്ര ധൃതി? അവിടെ ബിരിയാണി ഫ്രീ കൊടുക്കുന്നില്ല. പതുക്കെ പോവാം.",
+    "file": "paceFastMl-a06ee17144c5.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.4,
+    "captions": [
+      {
+        "text": "എന്തിനാ ഇത്ര ധൃതി?",
+        "start": 0,
+        "end": 1.6
+      },
+      {
+        "text": "അവിടെ ബിരിയാണി ഫ്രീ കൊടുക്കുന്നില്ല.",
+        "start": 1.64,
+        "end": 3.52
+      },
+      {
+        "text": "പതുക്കെ പോവാം.",
+        "start": 3.56,
+        "end": 4.4
+      }
+    ]
+  },
+  "reactCoastPier": {
+    "text": "The old piers. Look from the public path. We are collecting a detail, not casting you in a rescue scene.",
+    "file": "reactCoastPier-3c83b092d67e.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.72,
+    "captions": [
+      {
+        "text": "The old piers.",
+        "start": 0,
+        "end": 1.32
+      },
+      {
+        "text": "Look from the public path.",
+        "start": 1.52,
+        "end": 2.88
+      },
+      {
+        "text": "We are collecting a detail, not casting you in a rescue scene.",
+        "start": 3.12,
+        "end": 6.72
+      }
+    ]
+  },
+  "reactCoastFood": {
+    "text": "Food quest. Of course you picked this. No further questions.",
+    "file": "reactCoastFood-a154735fc910.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.4,
+    "captions": [
+      {
+        "text": "Food quest.",
+        "start": 0,
+        "end": 0.8
+      },
+      {
+        "text": "Of course you picked this.",
+        "start": 0.88,
+        "end": 2.88
+      },
+      {
+        "text": "No further questions.",
+        "start": 3.12,
+        "end": 4.4
+      }
+    ]
+  },
+  "reactCoastFrame": {
+    "text": "A photo quest. The coast and a landmark both need to be in it. Your forehead can sit this one out.",
+    "file": "reactCoastFrame-6e2c703f01e4.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.64,
+    "captions": [
+      {
+        "text": "A photo quest.",
+        "start": 0,
+        "end": 1.24
+      },
+      {
+        "text": "The coast and a landmark both need to be in it.",
+        "start": 1.44,
+        "end": 4.36
+      },
+      {
+        "text": "Your forehead can sit this one out.",
+        "start": 4.56,
+        "end": 6.64
+      }
+    ]
+  },
+  "reactCoastLandmark": {
+    "text": "Another landmark. Fine. But seeing two things does not qualify you to start a tour company.",
+    "file": "reactCoastLandmark-4f985ff6c0bb.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.08,
+    "captions": [
+      {
+        "text": "Another landmark.",
+        "start": 0,
+        "end": 1.24
+      },
+      {
+        "text": "Fine.",
+        "start": 1.44,
+        "end": 1.92
+      },
+      {
+        "text": "But seeing two things does not qualify you to start a tour company.",
+        "start": 2.08,
+        "end": 6.08
+      }
+    ]
+  },
+  "reactMarketHalwa": {
+    "text": "Halwa. You do remember there is a quest, right? Just checking.",
+    "file": "reactMarketHalwa-eae8d3771eef.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.48,
+    "captions": [
+      {
+        "text": "Halwa.",
+        "start": 0,
+        "end": 0.56
+      },
+      {
+        "text": "You do remember there is a quest, right?",
+        "start": 1.04,
+        "end": 3.52
+      },
+      {
+        "text": "Just checking.",
+        "start": 3.6,
+        "end": 4.48
+      }
+    ]
+  },
+  "reactMarketWindow": {
+    "text": "Two shopfronts. That is the task. You can stop preparing the shopping haul now.",
+    "file": "reactMarketWindow-0962a5b5d2ec.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.04,
+    "captions": [
+      {
+        "text": "Two shopfronts.",
+        "start": 0,
+        "end": 1.12
+      },
+      {
+        "text": "That is the task.",
+        "start": 1.44,
+        "end": 2.56
+      },
+      {
+        "text": "You can stop preparing the shopping haul now.",
+        "start": 2.88,
+        "end": 5.04
+      }
+    ]
+  },
+  "reactMarketPond": {
+    "text": "The pond. Let us enjoy a quiet minute. Your commentary can survive the break.",
+    "file": "reactMarketPond-79cf6cc30d9f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.6,
+    "captions": [
+      {
+        "text": "The pond.",
+        "start": 0,
+        "end": 1.04
+      },
+      {
+        "text": "Let us enjoy a quiet minute.",
+        "start": 1.36,
+        "end": 3.52
+      },
+      {
+        "text": "Your commentary can survive the break.",
+        "start": 3.6,
+        "end": 5.6
+      }
+    ]
+  },
+  "reactMarketNote": {
+    "text": "Two lines will do. We do not need the autobiography yet.",
+    "file": "reactMarketNote-7eab9cd6c925.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 3.68,
+    "captions": [
+      {
+        "text": "Two lines will do.",
+        "start": 0,
+        "end": 0.96
+      },
+      {
+        "text": "We do not need the autobiography yet.",
+        "start": 1.36,
+        "end": 3.68
+      }
+    ]
+  },
+  "checkpointCoast3": {
+    "text": "Old piers. History on one side, snacks on the other. I can already tell which argument you are preparing.",
+    "file": "checkpointCoast3-1da802a9a7ec.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 7.12,
+    "captions": [
+      {
+        "text": "Old piers.",
+        "start": 0,
+        "end": 1.24
+      },
+      {
+        "text": "History on one side, snacks on the other.",
+        "start": 1.44,
+        "end": 4.12
+      },
+      {
+        "text": "I can already tell which argument you are preparing.",
+        "start": 4.32,
+        "end": 7.12
+      }
+    ]
+  },
+  "checkpointCoast4": {
+    "text": "Food stalls. Suddenly everybody has an opinion. Pick a quest before you rewrite the menu.",
+    "file": "checkpointCoast4-6c7631c43121.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.32,
+    "captions": [
+      {
+        "text": "Food stalls.",
+        "start": 0,
+        "end": 1.12
+      },
+      {
+        "text": "Suddenly everybody has an opinion.",
+        "start": 1.36,
+        "end": 3.56
+      },
+      {
+        "text": "Pick a quest before you rewrite the menu.",
+        "start": 3.76,
+        "end": 6.32
+      }
+    ]
+  },
+  "checkpointMarket3": {
+    "text": "Mittai Theruvu. Another shop window. Try a new reaction; we have heard “I want that” already.",
+    "file": "checkpointMarket3-941cb4bd3ad9.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.88,
+    "captions": [
+      {
+        "text": "Mittai Theruvu.",
+        "start": 0,
+        "end": 1.04
+      },
+      {
+        "text": "Another shop window.",
+        "start": 1.52,
+        "end": 2.64
+      },
+      {
+        "text": "Try a new reaction; we have heard “I want that” already.",
+        "start": 3.04,
+        "end": 6.88
+      }
+    ]
+  },
+  "checkpointMarket4": {
+    "text": "Mananchira. A quiet stop. Even your shopping plans can take a minute off.",
+    "file": "checkpointMarket4-6fb3cc743d4d.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.2,
+    "captions": [
+      {
+        "text": "Mananchira.",
+        "start": 0,
+        "end": 0.88
+      },
+      {
+        "text": "A quiet stop.",
+        "start": 1.36,
+        "end": 2.52
+      },
+      {
+        "text": "Even your shopping plans can take a minute off.",
+        "start": 2.72,
+        "end": 5.2
+      }
+    ]
+  },
+  "checkpointCoast3Ml": {
+    "text": "പഴയ കടൽപ്പാലം. ഒരു വശത്ത് ചരിത്രം, മറ്റേ വശത്ത് ഭക്ഷണം. നീ ഏതിനാ വോട്ട് ചെയ്യുന്നതെന്ന് എനിക്കറിയാം.",
+    "file": "checkpointCoast3Ml-1d4ec0fc8c51.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 7.2,
+    "captions": [
+      {
+        "text": "പഴയ കടൽപ്പാലം.",
+        "start": 0,
+        "end": 1.44
+      },
+      {
+        "text": "ഒരു വശത്ത് ചരിത്രം, മറ്റേ വശത്ത് ഭക്ഷണം.",
+        "start": 1.493,
+        "end": 4.72
+      },
+      {
+        "text": "നീ ഏതിനാ വോട്ട് ചെയ്യുന്നതെന്ന് എനിക്കറിയാം.",
+        "start": 4.8,
+        "end": 7.2
+      }
+    ]
+  },
+  "checkpointCoast4Ml": {
+    "text": "ഫുഡ് സ്റ്റാളിലെത്തി. ഇപ്പൊ എല്ലാവർക്കും അഭിപ്രായമുണ്ടല്ലോ. മെനു മാറ്റിയെഴുതുന്നതിന് മുമ്പ് ക്വസ്റ്റ് എടുക്ക്.",
+    "file": "checkpointCoast4Ml-0ea60528b90f.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.24,
+    "captions": [
+      {
+        "text": "ഫുഡ് സ്റ്റാളിലെത്തി.",
+        "start": 0,
+        "end": 1.36
+      },
+      {
+        "text": "ഇപ്പൊ എല്ലാവർക്കും അഭിപ്രായമുണ്ടല്ലോ.",
+        "start": 1.413,
+        "end": 3.68
+      },
+      {
+        "text": "മെനു മാറ്റിയെഴുതുന്നതിന് മുമ്പ് ക്വസ്റ്റ് എടുക്ക്.",
+        "start": 3.76,
+        "end": 6.24
+      }
+    ]
+  },
+  "checkpointMarket3Ml": {
+    "text": "മിട്ടായി തെരുവ്. അടുത്ത കട കണ്ടു. ഇതും വാങ്ങണം എന്നല്ലാതെ വേറെ എന്തെങ്കിലും പറയാമോ?",
+    "file": "checkpointMarket3Ml-52c496b3de81.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.44,
+    "captions": [
+      {
+        "text": "മിട്ടായി തെരുവ്.",
+        "start": 0,
+        "end": 1.28
+      },
+      {
+        "text": "അടുത്ത കട കണ്ടു.",
+        "start": 1.36,
+        "end": 2.56
+      },
+      {
+        "text": "ഇതും വാങ്ങണം എന്നല്ലാതെ വേറെ എന്തെങ്കിലും പറയാമോ?",
+        "start": 2.587,
+        "end": 5.44
+      }
+    ]
+  },
+  "checkpointMarket4Ml": {
+    "text": "മാനാഞ്ചിറ. ഇവിടെ ഒന്ന് ശാന്തമായിരിക്കാം. നിന്റെ ഷോപ്പിങ് പ്ലാനിനും ഒരു ബ്രേക്ക് കൊടുക്ക്.",
+    "file": "checkpointMarket4Ml-c29da91dfb3d.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.84,
+    "captions": [
+      {
+        "text": "മാനാഞ്ചിറ.",
+        "start": 0,
+        "end": 0.96
+      },
+      {
+        "text": "ഇവിടെ ഒന്ന് ശാന്തമായിരിക്കാം.",
+        "start": 1.2,
+        "end": 3.28
+      },
+      {
+        "text": "നിന്റെ ഷോപ്പിങ് പ്ലാനിനും ഒരു ബ്രേക്ക് കൊടുക്ക്.",
+        "start": 3.32,
+        "end": 5.84
+      }
+    ]
+  },
+  "reactCoastPierMl": {
+    "text": "പഴയ പാലം നോക്കാം. പബ്ലിക് വഴിയിൽ നിന്ന് മതി. റെസ്ക്യൂ സീൻ ഷൂട്ട് ചെയ്യാൻ നമ്മൾ വന്നിട്ടില്ല.",
+    "file": "reactCoastPierMl-c27aa2364692.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.44,
+    "captions": [
+      {
+        "text": "പഴയ പാലം നോക്കാം.",
+        "start": 0,
+        "end": 1.44
+      },
+      {
+        "text": "പബ്ലിക് വഴിയിൽ നിന്ന് മതി.",
+        "start": 1.48,
+        "end": 2.96
+      },
+      {
+        "text": "റെസ്ക്യൂ സീൻ ഷൂട്ട് ചെയ്യാൻ നമ്മൾ വന്നിട്ടില്ല.",
+        "start": 3,
+        "end": 5.44
+      }
+    ]
+  },
+  "reactCoastFoodMl": {
+    "text": "ഭക്ഷണ ക്വസ്റ്റ് തന്നെ എടുത്തു, അല്ലേ? പ്രതീക്ഷ തെറ്റിച്ചില്ല.",
+    "file": "reactCoastFoodMl-a097205e040b.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 3.68,
+    "captions": [
+      {
+        "text": "ഭക്ഷണ ക്വസ്റ്റ് തന്നെ എടുത്തു, അല്ലേ?",
+        "start": 0,
+        "end": 2.12
+      },
+      {
+        "text": "പ്രതീക്ഷ തെറ്റിച്ചില്ല.",
+        "start": 2.4,
+        "end": 3.68
+      }
+    ]
+  },
+  "reactCoastFrameMl": {
+    "text": "ഫോട്ടോ ക്വസ്റ്റ്. കടലും ഒരു ലാൻഡ്‌മാർക്കും വേണം. നിന്റെ മുഖം ഈ തവണ ഫ്രെയിമിൽ ഇല്ലെങ്കിലും കുഴപ്പമില്ല.",
+    "file": "reactCoastFrameMl-b35f0c8f2563.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.48,
+    "captions": [
+      {
+        "text": "ഫോട്ടോ ക്വസ്റ്റ്.",
+        "start": 0,
+        "end": 0.88
+      },
+      {
+        "text": "കടലും ഒരു ലാൻഡ്‌മാർക്കും വേണം.",
+        "start": 1.28,
+        "end": 3.36
+      },
+      {
+        "text": "നിന്റെ മുഖം ഈ തവണ ഫ്രെയിമിൽ ഇല്ലെങ്കിലും കുഴപ്പമില്ല.",
+        "start": 3.44,
+        "end": 6.48
+      }
+    ]
+  },
+  "reactCoastLandmarkMl": {
+    "text": "ഒരു ലാൻഡ്‌മാർക്ക് കൂടി നോക്കാം. രണ്ടെണ്ണം കണ്ടെന്ന് പറഞ്ഞ് ടൂർ കമ്പനി തുടങ്ങല്ലേ.",
+    "file": "reactCoastLandmarkMl-246b94885928.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.64,
+    "captions": [
+      {
+        "text": "ഒരു ലാൻഡ്‌മാർക്ക് കൂടി നോക്കാം.",
+        "start": 0,
+        "end": 1.6
+      },
+      {
+        "text": "രണ്ടെണ്ണം കണ്ടെന്ന് പറഞ്ഞ് ടൂർ കമ്പനി തുടങ്ങല്ലേ.",
+        "start": 1.84,
+        "end": 4.64
+      }
+    ]
+  },
+  "reactMarketHalwaMl": {
+    "text": "ഹൽവ കണ്ടപ്പോ ക്വസ്റ്റ് ഓർമയുണ്ടല്ലോ, അല്ലേ? ചോദിച്ചതാ.",
+    "file": "reactMarketHalwaMl-b43588bdd0ed.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 3.6,
+    "captions": [
+      {
+        "text": "ഹൽവ കണ്ടപ്പോ ക്വസ്റ്റ് ഓർമയുണ്ടല്ലോ, അല്ലേ?",
+        "start": 0,
+        "end": 2.8
+      },
+      {
+        "text": "ചോദിച്ചതാ.",
+        "start": 2.88,
+        "end": 3.6
+      }
+    ]
+  },
+  "reactMarketWindowMl": {
+    "text": "രണ്ട് കട നോക്കാൻ ഇത്ര ബിൽഡപ്പ് വേണോ? ശരി, ഏത് കടയാ ആദ്യം?",
+    "file": "reactMarketWindowMl-5bc69039da32.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.64,
+    "captions": [
+      {
+        "text": "രണ്ട് കട നോക്കാൻ ഇത്ര ബിൽഡപ്പ് വേണോ?",
+        "start": 0,
+        "end": 2.6
+      },
+      {
+        "text": "ശരി, ഏത് കടയാ ആദ്യം?",
+        "start": 2.88,
+        "end": 4.64
+      }
+    ]
+  },
+  "reactMarketPondMl": {
+    "text": "ഇവിടെ ഒന്ന് ശാന്തമായിരിക്കാം. നിന്റെ കമന്ററിക്കും ഒരു ബ്രേക്ക്.",
+    "file": "reactMarketPondMl-d3541497bc39.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.24,
+    "captions": [
+      {
+        "text": "ഇവിടെ ഒന്ന് ശാന്തമായിരിക്കാം.",
+        "start": 0,
+        "end": 2.24
+      },
+      {
+        "text": "നിന്റെ കമന്ററിക്കും ഒരു ബ്രേക്ക്.",
+        "start": 2.28,
+        "end": 4.24
+      }
+    ]
+  },
+  "reactMarketNoteMl": {
+    "text": "രണ്ട് വരി മതി. ആത്മകഥ ഇപ്പൊ വേണ്ട.",
+    "file": "reactMarketNoteMl-0d38a124c5e7.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 3.2,
+    "captions": [
+      {
+        "text": "രണ്ട് വരി മതി.",
+        "start": 0,
+        "end": 1.36
+      },
+      {
+        "text": "ആത്മകഥ ഇപ്പൊ വേണ്ട.",
+        "start": 1.44,
+        "end": 3.2
+      }
+    ]
+  },
+  "reactCoastCivic": {
+    "text": "A practice complaint. “Not enough points” is not one of the categories.",
+    "file": "reactCoastCivic-1cc3d2c38a69.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.96,
+    "captions": [
+      {
+        "text": "A practice complaint.",
+        "start": 0,
+        "end": 1.56
+      },
+      {
+        "text": "“Not enough points” is not one of the categories.",
+        "start": 1.84,
+        "end": 4.96
+      }
+    ]
+  },
+  "reactCoastCivicMl": {
+    "text": "ഒരു പരാതി എഴുതാം. എനിക്ക് പോയിന്റ് കുറവാണ് എന്ന പരാതി ഇവിടെ എടുക്കില്ല.",
+    "file": "reactCoastCivicMl-a60125cc1346.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 4.72,
+    "captions": [
+      {
+        "text": "ഒരു പരാതി എഴുതാം.",
+        "start": 0,
+        "end": 1.36
+      },
+      {
+        "text": "എനിക്ക് പോയിന്റ് കുറവാണ് എന്ന പരാതി ഇവിടെ എടുക്കില്ല.",
+        "start": 1.44,
+        "end": 4.72
+      }
+    ]
+  },
+  "checkpointCoast5": {
+    "text": "The promenade. Last stop. One quest left, then you can call this a productive weekend.",
+    "file": "checkpointCoast5-58f773c07578.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.68,
+    "captions": [
+      {
+        "text": "The promenade.",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "Last stop.",
+        "start": 1.2,
+        "end": 2.16
+      },
+      {
+        "text": "One quest left, then you can call this a productive weekend.",
+        "start": 2.24,
+        "end": 5.68
+      }
+    ]
+  },
+  "checkpointCoast5Ml": {
+    "text": "പ്രൊമെനേഡിലെത്തി. ഇനി ഒരു ക്വസ്റ്റ് കൂടി. എന്നിട്ട് വീക്കെൻഡ് വെറുതെ കളഞ്ഞില്ലെന്ന് പറയാം.",
+    "file": "checkpointCoast5Ml-eae3291e9270.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 5.52,
+    "captions": [
+      {
+        "text": "പ്രൊമെനേഡിലെത്തി.",
+        "start": 0,
+        "end": 1.28
+      },
+      {
+        "text": "ഇനി ഒരു ക്വസ്റ്റ് കൂടി.",
+        "start": 1.307,
+        "end": 2.8
+      },
+      {
+        "text": "എന്നിട്ട് വീക്കെൻഡ് വെറുതെ കളഞ്ഞില്ലെന്ന് പറയാം.",
+        "start": 2.88,
+        "end": 5.52
+      }
+    ]
+  },
+  "civicReward": {
+    "text": "Draft saved locally. You got points for paperwork. Enjoy this deeply unusual moment.",
+    "file": "civicReward-ef1222dfcc80.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.4,
+    "captions": [
+      {
+        "text": "Draft saved locally.",
+        "start": 0,
+        "end": 1.64
+      },
+      {
+        "text": "You got points for paperwork.",
+        "start": 1.84,
+        "end": 3.6
+      },
+      {
+        "text": "Enjoy this deeply unusual moment.",
+        "start": 3.8,
+        "end": 6.4
+      }
+    ]
+  },
+  "civicRewardMl": {
+    "text": "കുറിപ്പ് ഇവിടെ സേവ് ചെയ്തു. ഒന്നും അയച്ചിട്ടില്ല. പരാതി എഴുതിയതിന് പോയിന്റ് കിട്ടി. ഇങ്ങനെയും ഒരു ദിവസം.",
+    "file": "civicRewardMl-a16d04f6e04e.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 6.72,
+    "captions": [
+      {
+        "text": "കുറിപ്പ് ഇവിടെ സേവ് ചെയ്തു.",
+        "start": 0,
+        "end": 1.76
+      },
+      {
+        "text": "ഒന്നും അയച്ചിട്ടില്ല.",
+        "start": 1.84,
+        "end": 3
+      },
+      {
+        "text": "പരാതി എഴുതിയതിന് പോയിന്റ് കിട്ടി.",
+        "start": 3.2,
+        "end": 5.28
+      },
+      {
+        "text": "ഇങ്ങനെയും ഒരു ദിവസം.",
+        "start": 5.44,
+        "end": 6.72
+      }
+    ]
+  },
+  "introRail": {
+    "text": "Station to SM Street, then Mananchira. Four stops. We are following a route today, not whichever smell wins.",
+    "file": "introRail-cfbbb1421254.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 8,
+    "captions": [
+      {
+        "text": "Station to SM Street, then Mananchira.",
+        "start": 0,
+        "end": 3.36
+      },
+      {
+        "text": "Four stops.",
+        "start": 3.48,
+        "end": 4.32
+      },
+      {
+        "text": "We are following a route today, not whichever smell wins.",
+        "start": 4.48,
+        "end": 8
+      }
+    ]
+  },
+  "introRailMl": {
+    "text": "സ്റ്റേഷനിൽ നിന്ന് എസ് എം സ്ട്രീറ്റ്, പിന്നെ മാനാഞ്ചിറ. ഇന്ന് വഴി നോക്കി നടക്കാം. നല്ല മണം വന്നെന്ന് പറഞ്ഞ് റൂട്ട് മാറ്റല്ലേ.",
+    "file": "introRailMl-39e8ab8c3f33.mp3",
+    "voice": "fjnwTZkKtQOJaYzGLa6n",
+    "model": "eleven_v4",
+    "duration": 7.6,
+    "captions": [
+      {
+        "text": "സ്റ്റേഷനിൽ നിന്ന് എസ് എം സ്ട്രീറ്റ്, പിന്നെ മാനാഞ്ചിറ.",
+        "start": 0,
+        "end": 3.6
+      },
+      {
+        "text": "ഇന്ന് വഴി നോക്കി നടക്കാം.",
+        "start": 3.627,
+        "end": 4.96
+      },
+      {
+        "text": "നല്ല മണം വന്നെന്ന് പറഞ്ഞ് റൂട്ട് മാറ്റല്ലേ.",
+        "start": 5.04,
+        "end": 7.6
+      }
+    ]
+  }
+}

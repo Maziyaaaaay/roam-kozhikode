@@ -1,0 +1,31 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {locationDelta,demoSpeed,checkpointVoice} from '../src/movement.js';
+import {routes,lines} from '../src/story.js';
+import fs from 'node:fs';
+const now=1791700000000;
+const fix=(lat,lng,time=now,accuracy=5)=>({coords:{latitude:lat,longitude:lng,accuracy},timestamp:time});
+test('GPS filters stale fixes, weak accuracy and impossible position jumps',()=>{
+ const first=locationDelta(null,fix(11,75),now);
+ assert.equal(first.moving,false);
+ assert.equal(locationDelta(first.point,fix(11,75,now-16000),now).accepted,false);
+ assert.equal(locationDelta(first.point,fix(11,75,now+1000,80),now+1000).accepted,false);
+ assert.equal(locationDelta(first.point,fix(12,75,now+1000),now+1000).accepted,false);
+});
+test('stationary GPS noise does not move the avatar; physical steps retain direction',()=>{
+ const first=locationDelta(null,fix(11,75),now).point;
+ const jitter=locationDelta(first,fix(11.000001,75,now+1000),now+1000);
+ assert.equal(jitter.moving,false);assert.equal(jitter.point,first);
+ const north=locationDelta(first,fix(11.00003,75,now+3000),now+3000);
+ assert.equal(north.moving,true);assert.ok(north.north>3);assert.ok(north.meters>3);
+ const south=locationDelta(north.point,fix(11,75,now+6000),now+6000);
+ assert.equal(south.moving,true);assert.ok(south.north< -3);
+});
+test('all corridors can be traversed in thirty seconds of held movement excluding tasks',()=>{
+ for(const route of routes){assert.ok(route.length/demoSpeed(route.length)<=30);assert.ok(demoSpeed(route.length,true)>demoSpeed(route.length));}
+});
+test('all route checkpoints resolve to bundled Malayalam dialogue in place order',()=>{
+ const manifest=JSON.parse(fs.readFileSync(new URL('../public/audio/manifest.json',import.meta.url)));
+ for(const route of routes)for(let i=0;i<route.stops.length;i++){const id=checkpointVoice(route.id,i)+'Ml';assert.ok(lines[id]);assert.equal(manifest[id].text,lines[id]);}
+ assert.deepEqual([0,1,2,3].map(i=>checkpointVoice('rail',i)),['checkpointMarket1','checkpointMarket3','checkpointMarket2','checkpointMarket4']);
+});

@@ -1,0 +1,40 @@
+{
+  "kozhikodeCoast": {
+    "id": "kozhikodeCoast",
+    "district": "Kozhikode",
+    "title": "Beach Road · Arabian Sea",
+    "file": "kozhikodeCoast-ba1a8178e63e.mp3",
+    "prompt": "A natural ambient soundscape at Kozhikode Beach, Kerala: gentle Arabian Sea surf rolling onto shore, a light coastal breeze and a few distant shore birds. Calm and spacious, realistic field-recording style, no voice, no music, no close identifiable conversations; make a smooth 10 second loop.",
+    "route": "coast",
+    "model": "eleven_text_to_sound_v2",
+    "kind": "AI-generated sound preview"
+  },
+  "kozhikodeMarket": {
+    "id": "kozhikodeMarket",
+    "district": "Kozhikode",
+    "title": "SM Street · market",
+    "file": "kozhikodeMarket-e25ba5d0815f.mp3",
+    "prompt": "An inviting daytime soundscape in a busy but relaxed South Indian shopping lane in Kozhikode: soft footfall, distant indistinct market murmur, a gentle bicycle bell, paper wrapping at a sweets counter, ceiling fan hum. No intelligible speech, no music, no brand sounds. Natural, warm, subtle, smooth 10 second loop.",
+    "route": "market",
+    "model": "eleven_text_to_sound_v2",
+    "kind": "AI-generated sound preview"
+  },
+  "thrissurPreview": {
+    "id": "thrissurPreview",
+    "district": "Thrissur",
+    "title": "Pooram rhythm · sound preview",
+    "file": "thrissurPreview-501e6f07dc42.mp3",
+    "prompt": "A short, respectful sound-inspired preview of Kerala chenda melam rhythm: layered hand-played barrel-drum beats with gentle cymbal accents, lively and gradually building for ten seconds. Original generated instrumental texture only: not an authentic field recording, not a known song, no crowd voices, no fireworks or elephant sounds, no claim that Thrissur Pooram is taking place. Smooth loop, modest dynamics.",
+    "model": "eleven_text_to_sound_v2",
+    "kind": "AI-generated sound preview"
+  },
+  "kannurPreview": {
+    "id": "kannurPreview",
+    "district": "Kannur",
+    "title": "Kannur coast · sound preview",
+    "file": "kannurPreview-1422d56072e0.mp3",
+    "prompt": "A calm natural soundscape inspired by the north Kerala coast around Kannur: easy Arabian Sea waves, a light palm-side breeze and two or three distant seabirds. Warm and spacious, no music, no voice, no identifiable conversations, no tourist clichés. A 10 second smooth loop, soft dynamics. This is a generated preview, not a recording at a specific beach.",
+    "model": "eleven_text_to_sound_v2",
+    "kind": "AI-generated sound preview"
+  }
+}
