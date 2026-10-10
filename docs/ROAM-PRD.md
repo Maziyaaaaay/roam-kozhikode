@@ -320,3 +320,12 @@ Place sources support factual discovery copy; they do not verify current opening
 The active English and Malayalam narrator scripts are centralized in src/dialogue.js. Use short spoken reactions tied to the player's immediate choice. Remove translated corporate metaphors, constant detective framing, generic congratulations, and repetitive bro/slang tags. Original dialogue uses comic timing and callbacks; never label an old meme as a verified current trend. Functional tasks, access warnings and GPS consent stay plain. Regenerate ElevenLabs recordings and measured captions whenever text changes; asset tests reject mismatched recordings.
 
 The deployable app root is roam-app, using React, Vite and Three.js. Vercel builds with npm run build and serves dist over HTTPS. Keep ElevenLabs keys local: recordings are generated before publishing, and only the static audio files ship. The restricted public Google Maps browser key is configured separately in Vercel as VITE_GOOGLE_MAPS_KEY. Repository visibility is private; .env files, .vercel account metadata, node_modules and dist are excluded from Git.
+
+
+## Updated scope: player accounts and crossing paths
+
+Optional Supabase email/password login now has an app implementation. Nearby visibility is explicitly enabled by the player and uses foreground GPS. Players within 80 metres can see names and send an invitation; accepted invitations enable private text messages. Named avatars show approximate relative positions in the authored scene. NPCs are not presented as connected users. Disabling visibility, signing out or backgrounding clears presence; discovery excludes stale presence after 30 seconds.
+
+Server setup: run `roam-app/supabase/multiplayer.sql`, configure `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`, and redeploy. The implementation is awaiting a connected project and two-device validation. See `roam-app/docs/NEARBY-SETUP.md`. Microphone calls, shared score persistence and public social-launch moderation remain outside this increment. Guest quest progress remains device-local.
+
+Coconut reveal: the requested exact Malayalam punchline replaces the previous explanation and has a dedicated narrator recording. It never changes directions or scores.

@@ -59,3 +59,5 @@ export const revisedDialogue = {
  reactMarketPondMl: 'ഇവിടെ ഒന്ന് ശാന്തമായിരിക്കാം. നിന്റെ കമന്ററിക്കും ഒരു ബ്രേക്ക്.',
  reactMarketNoteMl: 'രണ്ട് വരി മതി. ആത്മകഥ ഇപ്പൊ വേണ്ട.'
 };
+
+Object.assign(revisedDialogue,{prankRevealMl:'haha ha മണ്ടനെ വീണ്ടും പറ്റിച്ചു.'});
