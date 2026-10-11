@@ -46,7 +46,3 @@ Walk Here now moves the explorer every animation frame instead of once per GPS f
 ## Faster Walk Here demo and phone walking layout · 11 October 2026
 
 Walk Here now moves the explorer two scene metres per real metre (`WALK_HERE_BOOST` in `src/movement.js`) so a short walk shows the route quickly; distance-to-stop still reads in real metres, and leg cadence scales with the boosted pace. On phones (≤620 px) during a walk, the HUD is reduced to a slim status line, a compact distance bar and one control row; the map card, long text and legal bar hide until the walk ends, and the players button moves into the bottom bar, so the explorer stays clear in the middle of the screen. Desktop layout is unchanged. 60 tests pass and the build succeeds.
-
-## Guest play · 11 October 2026
-
-The sign-in wall is skipped: everyone enters as a guest (`GUEST` in `src/Players.jsx`) and can walk, complete quests, earn points and badges and use live GPS, saved on that device. Signing in through SIGN IN / CREATE ACCOUNT is still required to see and message nearby players, and switches to that account's own progress.
