@@ -42,3 +42,7 @@ Walk Here (real GPS, authored world) now moves the explorer one metre through th
 ## Real-time Walk Here motion · 11 October 2026
 
 Walk Here now moves the explorer every animation frame instead of once per GPS fix. The phone's motion sensor detects each step, so the explorer starts and stops with the player within about a second; between fixes it glides at the measured walking pace and never runs more than a few metres ahead of GPS-confirmed distance. Without a motion sensor it trails GPS smoothly at the measured pace. Leg cadence follows the real pace. The status line shows STEP SENSOR ON / READY / GPS ONLY. Logic lives in `src/live-motion.js` with simulated-walk tests; 59 tests pass and the build succeeds. Browser-verified with simulated GPS and accelerometer input; a real outdoor phone walk is still the final check.
+
+## Faster Walk Here demo and phone walking layout · 11 October 2026
+
+Walk Here now moves the explorer two scene metres per real metre (`WALK_HERE_BOOST` in `src/movement.js`) so a short walk shows the route quickly; distance-to-stop still reads in real metres, and leg cadence scales with the boosted pace. On phones (≤620 px) during a walk, the HUD is reduced to a slim status line, a compact distance bar and one control row; the map card, long text and legal bar hide until the walk ends, and the players button moves into the bottom bar, so the explorer stays clear in the middle of the screen. Desktop layout is unchanged. 60 tests pass and the build succeeds.

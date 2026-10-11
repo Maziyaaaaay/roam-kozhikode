@@ -75,3 +75,17 @@
 .badge-toast .eyebrow{color:#f0a48f}
 @keyframes badge-pop{from{opacity:0;transform:translate(-50%,10px)}to{opacity:1;transform:translate(-50%,0)}}
 @media (prefers-reduced-motion:reduce){.badge-toast{animation:none}}
+/* phone walking HUD: keep the middle of the screen clear so the explorer stays visible */
+@media(max-width:620px){
+.phase-walking .map-panel,.phase-walking .legal-links,.phase-walking .chapter-stamp .eyebrow,.phase-walking .chapter-stamp strong,.phase-walking .navigation .eyebrow,.phase-walking .navigation p,.phase-walking .bottom-status>span{display:none}
+.phase-walking .players-trigger{top:auto;bottom:14px;left:14px;right:auto;padding:4px 8px;font-size:7px;min-height:26px}
+.phase-walking .chapter-stamp{top:70px;left:10px;right:10px;max-width:none;min-width:0;padding:6px 9px;background:#eee6d2e6}
+.phase-walking .mode-label{font-size:7px;line-height:1.45;display:block}
+.phase-walking .navigation{top:auto;bottom:auto;top:112px;left:10px;right:10px;padding:8px 12px;background:#eee6d2e6;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.phase-walking .navigation h2{font-size:22px;margin:0;white-space:nowrap}
+.phase-walking .navigation h2 span{font-size:10px}
+.phase-walking .progress-track{flex:1 1 100%;margin-top:2px}
+.phase-walking .walk-controls{left:10px;right:10px;bottom:52px;display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+.phase-walking .walk-controls button{min-height:38px;padding:6px 3px;font-size:7px;grid-column:auto;grid-row:auto;order:0;width:auto}
+.phase-walking .bottom-status{left:10px;right:10px;bottom:10px;display:flex;justify-content:flex-end;padding:2px 6px;background:#eee6d2e6}
+}

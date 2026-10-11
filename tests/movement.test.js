@@ -30,6 +30,7 @@ test('all route checkpoints resolve to bundled Malayalam dialogue in place order
  assert.deepEqual([0,1,2,3].map(i=>checkpointVoice('rail',i)),['checkpointMarket1','checkpointMarket3','checkpointMarket2','checkpointMarket4']);
 });
 import {walkHereScale,walkHereStep,SCENE_UNITS} from '../src/movement.js';
-test('Walk Here moves the scene one metre per real metre walked',()=>{const scale=walkHereScale(1380,0,1380);assert.equal(SCENE_UNITS*scale,1380);const step=walkHereStep({accepted:true,moving:true,meters:4},scale);assert.equal(step.walked,4);assert.equal(step.progress/1380*SCENE_UNITS,4);});
+test('Walk Here moves the scene one metre per real metre walked',()=>{const scale=walkHereScale(1380,0,1380,1);assert.equal(SCENE_UNITS*scale,1380);const step=walkHereStep({accepted:true,moving:true,meters:4},scale);assert.equal(step.walked,4);assert.equal(step.progress/1380*SCENE_UNITS,4);});
 test('Walk Here never moves backwards or counts jitter',()=>{assert.deepEqual(walkHereStep({accepted:true,moving:false,meters:0},5),{walked:0,progress:0});assert.deepEqual(walkHereStep({accepted:false,moving:false},5),{walked:0,progress:0});const step=walkHereStep({accepted:true,moving:true,meters:3,east:-3,north:0},5);assert.ok(step.progress>0);});
-test('Walk Here scale accounts for routes that start part-way through the scene',()=>{const scale=walkHereScale(1580,760,820);const unitsPerRouteMetre=SCENE_UNITS*(1580-760)/(1580*820);assert.ok(Math.abs(scale*unitsPerRouteMetre-1)<1e-9);});
+test('Walk Here scale accounts for routes that start part-way through the scene',()=>{const scale=walkHereScale(1580,760,820,1);const unitsPerRouteMetre=SCENE_UNITS*(1580-760)/(1580*820);assert.ok(Math.abs(scale*unitsPerRouteMetre-1)<1e-9);});
+test('Walk Here demo boost moves the explorer twice as far as the real walk',()=>{const boosted=walkHereScale(1380,0,1380),plain=walkHereScale(1380,0,1380,1);assert.equal(boosted/plain,2);});
