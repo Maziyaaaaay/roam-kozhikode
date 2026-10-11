@@ -22,7 +22,7 @@ test('stationary GPS noise does not move the avatar; physical steps retain direc
  assert.equal(south.moving,true);assert.ok(south.north< -3);
 });
 test('all corridors can be traversed in thirty seconds of held movement excluding tasks',()=>{
- for(const route of routes){const manual=route.length/demoSpeed(route.length),auto=route.length/demoSpeed(route.length,true);assert.equal(Math.round(manual),60);assert.equal(Math.round(auto),50);}
+ for(const route of routes){const manual=route.length/demoSpeed(route.length),auto=route.length/demoSpeed(route.length,true);assert.equal(Math.round(manual),40);assert.equal(Math.round(auto),30);}
 });
 test('all route checkpoints resolve to bundled Malayalam dialogue in place order',()=>{
  const manifest=JSON.parse(fs.readFileSync(new URL('../public/audio/manifest.json',import.meta.url)));

@@ -13,7 +13,7 @@ export function locationDelta(previous, fix, now=Date.now()) {
  return {accepted:true,point,meters,east,north,moving:true};
 }
 // Demo Walk crosses a full corridor in a fixed time at a natural pace; only live Walk Here is boosted.
-export const DEMO_SECONDS={manual:60,auto:50};
+export const DEMO_SECONDS={manual:40,auto:30};
 export function demoSpeed(length,auto=false){return length/(auto?DEMO_SECONDS.auto:DEMO_SECONDS.manual);}
 export function checkpointVoice(routeId,index){const order=routeId==='rail'?[1,3,2,4]:null;return `checkpoint${routeId==='coast'?'Coast':'Market'}${order?order[index]||4:Math.min(index+1,routeId==='coast'?5:4)}`;}
 // Walk Here: one real metre walked moves the explorer one metre through the 3D scene.

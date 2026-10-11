@@ -7,7 +7,7 @@
 ## Features
 
 - **Real-time Walk Here:** the explorer moves with your real steps. The phone's motion sensor detects each step and GPS keeps the distance honest, with a 2× demo boost.
-- **Demo Walk:** hold-to-walk or Auto Walk through the 3D street without GPS (60 s / 50 s per route).
+- **Demo Walk:** hold-to-walk or Auto Walk through the 3D street without GPS (40 s / 30 s per route).
 - **Three Kozhikode routes** with 30 local discovery quests: heritage, food, street, sound, creative and civic.
 - **Bilingual narrator:** English and Malayalam voice lines, captions and a playful host.
 - **Points, streaks and 12 badges**, plus a **shared weekend board** of signed-in players.
@@ -131,7 +131,7 @@ To regenerate audio after changing scripts, use `node scripts/elevenlabs-narrati
 
 ## Updated movement demo
 
-Demo Walk moves at a natural walking pace: manual movement covers a corridor in 60 seconds excluding quests and Auto Walk in 50 seconds (`DEMO_SECONDS` in `src/movement.js`). Live Walk Here is the faster, boosted mode. Both stop at checkpoints. Hold left/right for diagonal movement, or A/D for sideways movement alone. Drag the world or hold Q/E to look around. The avatar stops when controls are released. Pedestrians and traffic animate independently, except with reduced motion enabled.
+Demo Walk moves at a natural walking pace: manual movement covers a corridor in 40 seconds excluding quests and Auto Walk in 30 seconds (`DEMO_SECONDS` in `src/movement.js`). Live Walk Here is the faster, boosted mode. Both stop at checkpoints. Hold left/right for diagonal movement, or A/D for sideways movement alone. Drag the world or hold Q/E to look around. The avatar stops when controls are released. Pedestrians and traffic animate independently, except with reduced motion enabled.
 
 All three routes have Malayalam narration and captions. Use the language button in the header to select Malayalam. On a quest card, Replay Narrator replays the selected response; the response stays visible below the task.
 
