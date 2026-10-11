@@ -1,10 +1,65 @@
-# ROAM · Kozhikode Weekend Quest Club
+# ROAM
 
-A React/Three.js demo that turns a walk into selectable local discovery quests. Choose one of three Kozhikode routes, hear a preloaded opening, walk with optional foreground GPS or use held demo controls, complete local discovery quests and collect points. The leaderboard and daily streak update immediately and persist on this device.
+**Turn any walk into a game.** Pick a route in your city and walk it for real while your character moves with every step. Discover local spots, complete quests, earn points and badges, and compete with explorers nearby. Kozhikode, Kerala is where it starts.
 
-Live app: https://roam-kozhikode.vercel.app — every player signs in with an account and a player name before playing.
+**Live app:** https://roam-kozhikode.vercel.app (every player signs in with an account and a player name)
 
-## Run the demo
+## Features
+
+- **Real-time Walk Here:** the explorer moves with your real steps. The phone's motion sensor detects each step and GPS keeps the distance honest, with a 2× demo boost.
+- **Demo Walk:** hold-to-walk or Auto Walk through the 3D street without GPS (60 s / 50 s per route).
+- **Three Kozhikode routes** with 30 local discovery quests: heritage, food, street, sound, creative and civic.
+- **Bilingual narrator:** English and Malayalam voice lines, captions and a playful host.
+- **Points, streaks and 12 badges**, plus a **shared weekend board** of signed-in players.
+- **Players nearby:** opt-in visibility within 80 m, invitations and chat. Exact coordinates are never shared.
+- **Third-person 3D world** built with Three.js, with a chase camera that keeps your explorer in view and a clean phone layout.
+
+## Tech stack
+
+React 19 · Three.js · Vite · Supabase (accounts, nearby players, weekend board) · Google Maps (optional walking routes) · ElevenLabs (pre-generated narration and ambience) · Vercel hosting
+
+## Getting started
+
+Requires Node.js 20.19+ or 22.12+.
+
+```sh
+npm install
+npm run dev
+```
+
+Create `.env.local` with your Supabase project values (see `.env.example`):
+
+```dotenv
+VITE_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
+VITE_GOOGLE_MAPS_KEY=optional-restricted-browser-key
+```
+
+In the Supabase SQL Editor, run `supabase/multiplayer.sql` and then `supabase/leaderboard.sql` once. Full steps are in [docs/NEARBY-SETUP.md](docs/NEARBY-SETUP.md).
+
+```sh
+npm test        # automated checks
+npm run build   # production build in dist/
+```
+
+Phone GPS and the motion sensor need HTTPS, so test on a deployed URL rather than a local network address.
+
+## Project structure
+
+| Path | What it holds |
+|---|---|
+| `src/QuestApp.jsx` | Main app: routes, quests, walking modes, HUD |
+| `src/World.jsx` | Three.js scene, explorer, chase camera |
+| `src/live-motion.js` | Real-time step and GPS movement |
+| `src/movement.js` | GPS filtering, demo and Walk Here speeds |
+| `src/quests.js`, `src/story.js` | Routes, quests, scoring, narration lines |
+| `src/badges.js`, `src/board.js` | Achievements and the weekend board |
+| `src/Players.jsx`, `src/supabase.js` | Sign-in, nearby players and chat |
+| `supabase/` | Database setup SQL |
+| `scripts/` | Narration, sound and Blender asset generation |
+| `tests/` | Node test suite |
+
+## Run the built demo
 
 Double-click `start-roam.command`, or run:
 
@@ -13,7 +68,7 @@ npm run build
 npm run preview -- --port 4173
 ```
 
-Open http://localhost:4173 in Chrome. For development, use `npm run dev`.
+Open http://localhost:4173 in Chrome.
 
 ## Two-minute rehearsal
 
@@ -21,13 +76,13 @@ Open http://localhost:4173 in Chrome. For development, use `npm run dev`.
 - 15–35 seconds: use held demo movement to pass through the narrated 3D street. Show the station facade, palm-lined city and the more detailed Blender cafe model.
 - 35–65 seconds: reach the first SM Street quest stop, let the caption and voice land, then show two activity choices.
 - 65–95 seconds: complete a short field observation and save it for points; show the avatar settle when movement stops.
-- 95–120 seconds: advance to Mananchira, show the weekend board and journal. Clarify that the leaderboard is local demo data and live GPS follows the player on a real outdoor walk.
+- 95–120 seconds: advance to Mananchira, show the weekend board and journal. Point out that the weekend board lists signed-in players and that live GPS follows the player on a real outdoor walk.
 
 Hold W/up or the on-screen WALK control to move the demo. A/D and arrow keys steer; dragging rotates the view; Center View resets its manual angle. Demo controls move the authored corridor. The separate Live GPS mode follows the device location and is the mode to use for a real walk.
 
 ## What is functional
 
-Thirty curated quests across three corridors (five coast stops and four stops on each city route), two or more alternatives at each stop, points only on completion, duplicate reward prevention per quest per India-local week, daily streak, local journal, optional notes/session photos, ranked local demo board, weekly rollover, playful voice cues, optional one-time mystery gag, mute/replay and reduced motion. Intro and reward recordings use the configured ElevenLabs voice and are bundled locally.
+Thirty curated quests across three corridors (five coast stops and four stops on each city route), two or more alternatives at each stop, points only on completion, duplicate reward prevention per quest per India-local week, daily streak, local journal, optional notes/session photos, shared weekend board, weekly rollover, playful voice cues, optional one-time mystery gag, mute/replay and reduced motion. Intro and reward recordings use the configured ElevenLabs voice and are bundled locally.
 
 With the shared board set up, the weekend board lists real signed-in players; otherwise competitors are explicitly labelled sample rivals. Completion is self-reported, with an explicit simulation label in Demo Walk. A photo is optional and stays in session memory; no AI validation or merchant verification is claimed. Real shared competition requires identity, server-side award validation and a database before deployment.
 
@@ -97,3 +152,7 @@ The built-in browser returned Location Unavailable during the desktop check. The
 ROAM opens with a centered sign-in / create-account screen. A signed-in Supabase account is required before Take the Scenic Route, district selection and the 3D world appear. Existing sessions are restored on reload. Signing out stops the walk and returns to login. Players is for nearby interactions after sign-in.
 
 Temporary demo authentication: the owner approved disabling email confirmation to avoid the built-in confirmation-email quota. New accounts still require email and password, but address ownership is not verified. Restore confirmation with custom SMTP before public release.
+
+## License
+
+Copyright © 2026 Mazin KP. All rights reserved. The source is published for viewing; no licence is granted to copy, modify or redistribute it without permission.
