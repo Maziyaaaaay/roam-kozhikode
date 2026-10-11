@@ -2,6 +2,8 @@
 
 A React/Three.js demo that turns a walk into selectable local discovery quests. Choose one of three Kozhikode routes, hear a preloaded opening, walk with optional foreground GPS or use held demo controls, complete local discovery quests and collect points. The leaderboard and daily streak update immediately and persist on this device.
 
+Live app: https://roam-kozhikode.vercel.app — every player signs in with an account and a player name before playing.
+
 ## Run the demo
 
 Double-click `start-roam.command`, or run:
@@ -29,9 +31,17 @@ Thirty curated quests across three corridors (five coast stops and four stops on
 
 Competitors are explicitly labelled sample rivals. Your score is local demo data. Completion is self-reported, with an explicit simulation label in Demo Walk. A photo is optional and stays in session memory; no AI validation or merchant verification is claimed. Real shared competition requires identity, server-side award validation and a database before deployment.
 
+## Accounts and nearby players
+
+Sign-in is required. Create an account with a player name, email and password; the name appears above your explorer and to nearby players. Progress is saved per account on the device. In the players panel, turn on **Visible to players within 80 m** to see and message other signed-in players nearby. Accounts use Supabase (`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`); see `docs/NEARBY-SETUP.md`. Two-phone nearby play still needs a field check.
+
+## Badges
+
+Twelve local achievements (`src/badges.js`) are derived from the journal and live GPS distance: First Steps, Quest Collector, Three Corridors, Heritage Hunter, Appetite Navigator, Civic Voice, On a Roll, Week Warrior, Thousand Club, Night Owl (India time), Real Footsteps and One Kilometre. Open **BADGES** in the header for progress; a toast announces each unlock. Badges never change points or the board.
+
 ## Location and world
 
-Foreground GPS can drive the route progress, marker, camera and arrival checkpoints on a secure origin. The avatar gait responds to accurate, fresh fixes that indicate walking; it settles while the player is stopped. This is location-based movement, not eye tracking. On Mac, location may be estimated from nearby Wi-Fi; a phone outdoors usually provides a better GPS fix. The authored coordinates are approximate and individual vendors are not geofenced or verified. Demo controls work without GPS. Phone GPS requires HTTPS; an ordinary local-network HTTP address supports only the simulated journey. Live outdoor GPS remains untested.
+Foreground GPS can drive the route progress, marker, camera and arrival checkpoints on a secure origin. The avatar gait responds to accurate, fresh fixes that indicate walking; it settles while the player is stopped. This is location-based movement, not eye tracking. On Mac, location may be estimated from nearby Wi-Fi; a phone outdoors usually provides a better GPS fix. The authored coordinates are approximate and individual vendors are not geofenced or verified. Demo controls work without GPS. Phone GPS requires HTTPS; an ordinary local-network HTTP address supports only the simulated journey. Live outdoor GPS has had an initial phone check; route-tracking accuracy in Kozhikode remains to be field-tested.
 
 The rendered corridor is an authored Three.js reconstruction, not an Unreal Engine build or surveyed city replica. It uses articulated character joints, layered building facades, tropical vegetation, shadows, textured road surfaces, checkpoint props, and a Blender-exported cafe model. Choices reveal distinct 3D pier, pond, food-counter and other activity sets. The illustrated field map uses route context and checkpoint pictograms; it remains an approximate game map, not a navigation map. Three authored walks are available: Corporation Office to Kozhikode Beach, SM Street to Mananchira, and Railway Station to Mananchira via SM Street. With Maps configured, selections recalculate the provider walking route; without Maps, Demo Walk keeps the authored corridor and approximate geography. The opening is a narrated real-time 3D scene, not a rendered intro video.
 
@@ -72,12 +82,13 @@ All three routes have Malayalam narration and captions. Use the language button 
 
 ### Real movement test on your phone
 
-1. Serve the built dist folder from an HTTPS static host. The browser bundle contains the restricted public Google Maps key; never upload the project root or .env files. The built app is static and does not need a backend.
+1. Use the live app above, or serve the built dist folder from an HTTPS static host. The browser bundle contains the restricted public Google Maps key; never upload the project root or .env files. The built app is static and does not need a backend.
 2. Open that HTTPS URL on your iPhone in Safari, keep the tab in the foreground, and start a route. A Mac localhost URL cannot be opened directly from your phone. A local-network HTTP URL is not sufficient for phone location access.
 3. Select Enable Live GPS, then Walk Here to test at your current location. Allow location permission with Precise Location enabled. Outdoors, wait until the status changes from Waiting to Preview and reports a useful accuracy.
-4. Walk several metres forward. The first accepted movement defines the preview forward direction. Turn and walk back to test reverse movement; move sideways to test lateral movement. Small changes below the accuracy-dependent noise threshold are ignored. This tests real physical GPS input in an authored scene and does not prove arrival at a Kozhikode landmark.
-5. Pause Walk stops location tracking. Resume starts it again. It also restarts after a completed quest. A preview completion is labelled gps-preview in the journal.
-6. If you are actually on the selected Kozhikode route, choose Track the Kozhikode Route instead. This uses accepted GPS fixes projected onto that route and reports when you are outside the corridor.
+4. Allow **Motion & Orientation** access when asked. The status line shows STEP SENSOR ON once your steps are detected (GPS ONLY if motion access is blocked).
+5. Walk in any direction. Distance walked always counts as forward progress, at 2× the real distance for quick demos (`WALK_HERE_BOOST` in `src/movement.js`); the distance to the next stop is shown in real metres. The explorer moves every frame: phone steps start and stop it within about a second, it glides at your measured pace, and GPS keeps the total honest. The chase camera keeps the explorer centred. This tests real physical movement in an authored scene and does not prove arrival at a Kozhikode landmark.
+6. Pause Walk stops location tracking. Resume starts it again. It also restarts after a completed quest. A preview completion is labelled gps-preview in the journal.
+7. If you are actually on the selected Kozhikode route, choose Track the Kozhikode Route instead. This uses accepted GPS fixes projected onto that route and reports when you are outside the corridor.
 
 The built-in browser returned Location Unavailable during the desktop check. The GPS processing tests pass, but an outdoor iPhone walk has not been verified. Do that before presenting real location tracking as tested.
 
