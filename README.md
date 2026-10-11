@@ -76,7 +76,7 @@ To regenerate audio after changing scripts, use `node scripts/elevenlabs-narrati
 
 ## Updated movement demo
 
-Manual movement covers a corridor in roughly 30 seconds excluding quests; Auto Walk takes roughly 18 seconds. Both stop at checkpoints. Hold left/right for diagonal movement, or A/D for sideways movement alone. Drag the world or hold Q/E to look around. The avatar stops when controls are released. Pedestrians and traffic animate independently, except with reduced motion enabled.
+Demo Walk moves at a natural walking pace: manual movement covers a corridor in roughly 90 seconds excluding quests and Auto Walk in roughly 70 seconds (`DEMO_PACE` in `src/movement.js`). Live Walk Here is the faster, boosted mode. Both stop at checkpoints. Hold left/right for diagonal movement, or A/D for sideways movement alone. Drag the world or hold Q/E to look around. The avatar stops when controls are released. Pedestrians and traffic animate independently, except with reduced motion enabled.
 
 All three routes have Malayalam narration and captions. Use the language button in the header to select Malayalam. On a quest card, Replay Narrator replays the selected response; the response stays visible below the task.
 
