@@ -29,7 +29,7 @@ VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
 
 ## Implemented boundaries
 
-Email/password accounts, opt-in location presence, nearby discovery, named 3D avatars, invitation acceptance/decline, private text chat, end chat, and sign out are implemented. Microphone voice calls, account-synced scores, blocking/moderation tooling and production abuse controls are not implemented. This is a two-player demo feature, not a public social-platform launch.
+Email/password accounts, opt-in location presence, nearby discovery, named 3D avatars, invitation acceptance/decline, private text chat, end chat, and sign out are implemented. Microphone voice calls, blocking/moderation tooling and production abuse controls are not implemented. This is a two-player demo feature, not a public social-platform launch.
 
 No microphone is requested. Presence uses foreground GPS and a 5-second update interval; chat refreshes every 2 seconds. Raw coordinates are readable only by their owner; the proximity RPC returns names, distance and rounded relative offsets. Database operators can access stored information. Stale presence is excluded, but rows from disconnected devices may remain until removed. Chat messages persist in the project until deleted by its operator.
 
@@ -44,3 +44,7 @@ Supabase's built-in email service has a small project-wide quota and restricted 
 For a temporary hackathon demo, the project owner may explicitly choose to disable Confirm Email under Authentication → Sign In / Providers → Email. This allows new email/password accounts without verifying address ownership. It is a security tradeoff requiring the owner's choice, and is not applied automatically by ROAM. Existing unconfirmed accounts may still need resolution in Supabase. Re-enable verification and configure SMTP before a public launch.
 
 Current demo setting: Confirm Email is disabled with owner approval. The authentication settings endpoint verified that confirmation is no longer required. Re-enable it with custom SMTP before public release.
+
+## Shared weekend board
+
+Run `supabase/leaderboard.sql` once in the SQL Editor (after `multiplayer.sql`). It adds `roam_scores` plus two functions: `roam_submit_score` (saves the signed-in player's weekly points, keeping the higher value across devices) and `roam_weekly_board` (top 25 names and points for the week, no user ids). After each completed quest the app posts the player's weekly points; the open board refreshes every 10 seconds. Until the SQL is run, the board falls back to the local score with labelled sample rivals. Points are self-reported by the client and capped at 10,000; this is a demo board, not anti-cheat scoring.

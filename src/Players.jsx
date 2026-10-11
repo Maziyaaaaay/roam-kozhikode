@@ -1,8 +1,6 @@
 import React,{useEffect,useState,useRef} from 'react';
-import {createClient} from '@supabase/supabase-js';
+import {db} from './supabase.js';
 import {authFailure} from './auth-errors.js';
-const url=import.meta.env.VITE_SUPABASE_URL,key=import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
-const db=url&&key?createClient(url,key):null;
 export default function Players({gate=false,onNearby,onName,onOpen,onAccount}){
  const [authRetry,setAuthRetry]=useState({mode:null,seconds:0});
  const authInFlight=useRef(false);

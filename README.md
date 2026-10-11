@@ -29,11 +29,11 @@ Hold W/up or the on-screen WALK control to move the demo. A/D and arrow keys ste
 
 Thirty curated quests across three corridors (five coast stops and four stops on each city route), two or more alternatives at each stop, points only on completion, duplicate reward prevention per quest per India-local week, daily streak, local journal, optional notes/session photos, ranked local demo board, weekly rollover, playful voice cues, optional one-time mystery gag, mute/replay and reduced motion. Intro and reward recordings use the configured ElevenLabs voice and are bundled locally.
 
-Competitors are explicitly labelled sample rivals. Your score is local demo data. Completion is self-reported, with an explicit simulation label in Demo Walk. A photo is optional and stays in session memory; no AI validation or merchant verification is claimed. Real shared competition requires identity, server-side award validation and a database before deployment.
+With the shared board set up, the weekend board lists real signed-in players; otherwise competitors are explicitly labelled sample rivals. Completion is self-reported, with an explicit simulation label in Demo Walk. A photo is optional and stays in session memory; no AI validation or merchant verification is claimed. Real shared competition requires identity, server-side award validation and a database before deployment.
 
 ## Accounts and nearby players
 
-Sign-in is required. Create an account with a player name, email and password; the name appears above your explorer and to nearby players. Progress is saved per account on the device. In the players panel, turn on **Visible to players within 80 m** to see and message other signed-in players nearby. Accounts use Supabase (`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`); see `docs/NEARBY-SETUP.md`. Two-phone nearby play still needs a field check.
+Sign-in is required. Create an account with a player name, email and password; the name appears above your explorer and to nearby players. Progress is saved per account on the device. In the players panel, turn on **Visible to players within 80 m** to see and message other signed-in players nearby. Accounts use Supabase (`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`); see `docs/NEARBY-SETUP.md`. Two-phone nearby play still needs a field check. The weekend board shows every signed-in player's weekly points once `supabase/leaderboard.sql` has been run in the Supabase SQL editor; until then it shows local sample rivals.
 
 ## Badges
 

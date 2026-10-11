@@ -1,0 +1,7 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {quests,emptyPlayer,completeQuest} from '../src/quests.js';import {buildBoard} from '../src/board.js';
+const now=Date.parse('2026-10-08T06:30:00Z');
+const me=()=>({...completeQuest({...emptyPlayer(),name:'Mazin'},quests[1],{time:now,note:'saw it'}),name:'Mazin'});
+test('without shared scores the board keeps the labelled sample rivals',()=>{const board=buildBoard(me(),null,now);assert.equal(board.shared,false);assert.ok(board.rows.some(r=>r.sample));assert.ok(board.rows.some(r=>r.you));});
+test('shared scores show real players and no sample rivals',()=>{const board=buildBoard(me(),[{name:'Aisha',points:260,is_me:false},{name:'Rahul',points:40,is_me:false}],now);assert.equal(board.shared,true);assert.deepEqual(board.rows.map(r=>r.name),['Aisha','Mazin','Rahul']);assert.ok(!board.rows.some(r=>r.sample));});
+test('your own row appears once, using the higher of device and server points',()=>{const board=buildBoard(me(),[{name:'Mazin',points:900,is_me:true},{name:'Aisha',points:260,is_me:false}],now);assert.equal(board.rows.filter(r=>r.you).length,1);assert.equal(board.rows[0].points,900);assert.ok(board.rows[0].you);});
+test('you still appear on an empty shared board',()=>{const board=buildBoard(me(),[],now);assert.equal(board.rows.length,1);assert.ok(board.rows[0].you);assert.equal(board.rows[0].points,quests[1].points);});
