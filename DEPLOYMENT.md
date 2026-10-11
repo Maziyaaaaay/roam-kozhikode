@@ -1,7 +1,7 @@
 # ROAM deployment
 
 Live app: https://roam-kozhikode.vercel.app
-Source repository (public, MIT License): https://github.com/Maziyaaaaay/roam-kozhikode
+Private source repository: https://github.com/Maziyaaaaay/roam-kozhikode
 Vercel project: https://vercel.com/maziyaaaaays-projects/roam-kozhikode
 
 The GitHub main branch is connected to Vercel. New pushes build the Vite app and publish the production site. The app root is the repository root; build command is npm run build and output is dist.
