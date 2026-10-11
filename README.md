@@ -97,7 +97,3 @@ The built-in browser returned Location Unavailable during the desktop check. The
 ROAM opens with a centered sign-in / create-account screen. A signed-in Supabase account is required before Take the Scenic Route, district selection and the 3D world appear. Existing sessions are restored on reload. Signing out stops the walk and returns to login. Players is for nearby interactions after sign-in.
 
 Temporary demo authentication: the owner approved disabling email confirmation to avoid the built-in confirmation-email quota. New accounts still require email and password, but address ownership is not verified. Restore confirmation with custom SMTP before public release.
-
-## License
-
-ROAM is open source under the [MIT License](LICENSE). Contributions are welcome: open an issue or a pull request.
