@@ -12,12 +12,14 @@ export function locationDelta(previous, fix, now=Date.now()) {
  if(meters/seconds>7)return {accepted:false,moving:false};
  return {accepted:true,point,meters,east,north,moving:true};
 }
-// Demo Walk moves at a natural walking pace through the scene (scene metres per second); only live Walk Here is boosted.
-export const DEMO_PACE={manual:2,auto:2.5};
-export function demoSpeed(length,auto=false){return (auto?DEMO_PACE.auto:DEMO_PACE.manual)*length/SCENE_UNITS;}
+// Demo Walk crosses a full corridor in a fixed time at a natural pace; only live Walk Here is boosted.
+export const DEMO_SECONDS={manual:60,auto:50};
+export function demoSpeed(length,auto=false){return length/(auto?DEMO_SECONDS.auto:DEMO_SECONDS.manual);}
 export function checkpointVoice(routeId,index){const order=routeId==='rail'?[1,3,2,4]:null;return `checkpoint${routeId==='coast'?'Coast':'Market'}${order?order[index]||4:Math.min(index+1,routeId==='coast'?5:4)}`;}
 // Walk Here: one real metre walked moves the explorer one metre through the 3D scene.
 export const SCENE_UNITS=176;
+// Scene metres per second for Demo Walk, used to match leg cadence to the pace.
+export const DEMO_PACE={manual:SCENE_UNITS/DEMO_SECONDS.manual,auto:SCENE_UNITS/DEMO_SECONDS.auto};
 // Demo boost: each real metre walked moves the explorer this many metres, so a short walk shows the route quickly.
 export const WALK_HERE_BOOST=2;
 export function walkHereScale(sceneLength,sceneOffset,routeSpan,boost=WALK_HERE_BOOST){const units=SCENE_UNITS*Math.max(1,sceneLength-sceneOffset)/Math.max(1,sceneLength);return Math.max(1,routeSpan)/units*boost;}
